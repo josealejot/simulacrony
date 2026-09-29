@@ -283,7 +283,7 @@ document.addEventListener("DOMContentLoaded", () => {
         totalAciertos++;
         if (q.is_sign_question) senalesAciertos++;
       } else {
-        errores.append({
+        errores.push({
           id: q.id,
           question: q.question,
           category: q.category,
@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const porcentaje = Math.round((totalAciertos / total) * 100);
     const cumpleTotal = totalAciertos >= 14;
     const cumpleSenales = senalesAciertos >= 2;
-    const aprobado = cumpleTotal and cumpleSenales;
+    const aprobado = cumpleTotal && cumpleSenales;
 
     return {
       candidato: state.userName,
