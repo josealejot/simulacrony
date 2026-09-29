@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador Oficial Examen de Manejo NYS DMV (Español)</title>
+  <meta name="description" content="Simulador web oficial del examen de permiso de conducir de Nueva York (NYS Learner Permit) 100% en español con reglas reales de calificación.">
+  
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Canvas Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="bg-gradient-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+
+  <div class="container">
+    <!-- HEADER -->
+    <header class="main-header">
+      <div class="logo-badge">
+        <i class="fa-solid fa-car-side"></i>
+        <span>NYS DMV SIMULATOR</span>
+      </div>
+      <h1 class="header-title">Examen Teórico de Conducción de Nueva York</h1>
+      <p class="header-subtitle">Permiso de Aprendizaje oficial en Español (Learner Permit Test)</p>
+    </header>
+
+    <!-- PANTALLA 1: BIENVENIDA Y REGISTRO -->
+    <section id="screen-welcome" class="card active-screen">
+      <div class="welcome-hero">
+        <div class="flag-banner">
+          <span class="state-pill"><i class="fa-solid fa-shield-halved"></i> Estado de Nueva York</span>
+          <span class="lang-pill"><i class="fa-solid fa-earth-americas"></i> 100% en Español</span>
+        </div>
+        <h2>¡Prepárate para obtener tu licencia en NY!</h2>
+        <p class="hero-desc">
+          Este simulador reproduce con total fidelidad las 20 preguntas del examen del DMV de Nueva York, 
+          aplicando las reglas oficiales de descalificación y evaluación dual.
+        </p>
+      </div>
+
+      <!-- Formulario de identificación -->
+      <div class="user-form-card">
+        <label for="input-user-name" class="form-label">
+          <i class="fa-solid fa-user"></i> Nombre de la candidata/o:
+        </label>
+        <div class="input-group">
+          <input type="text" id="input-user-name" placeholder="Ingresa tu nombre (Ej. Naty)" value="Naty" autocomplete="name">
+          <button type="button" id="btn-save-name" class="btn-subtle" title="Guardar nombre">
+            <i class="fa-solid fa-check"></i>
+          </button>
+        </div>
+        <small class="form-help">Tus resultados e historial de intentos se guardarán en la memoria de tu dispositivo.</small>
+      </div>
+
+      <!-- Reglas oficiales destacadas -->
+      <div class="rules-grid">
+        <div class="rule-card">
+          <div class="rule-icon"><i class="fa-solid fa-list-check"></i></div>
+          <div class="rule-info">
+            <h4>20 Preguntas</h4>
+            <p>Selección múltiple con la proporción real del examen del NYS DMV.</p>
+          </div>
+        </div>
+
+        <div class="rule-card">
+          <div class="rule-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <div class="rule-info">
+            <h4>70% para Aprobar</h4>
+            <p>Debes contestar correctamente al menos <strong>14 de 20 preguntas</strong>.</p>
+          </div>
+        </div>
+
+        <div class="rule-card critical">
+          <div class="rule-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+          <div class="rule-info">
+            <h4>Regla Crítica de Señales</h4>
+            <p>Obligatorio acertar al menos <strong>2 de las 4 preguntas de señales</strong>.</p>
+          </div>
+        </div>
+
+        <div class="rule-card">
+          <div class="rule-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="rule-info">
+            <h4>Paso Previo al MV-278</h4>
+            <p>Al aprobar, estarás listo/a para el curso de 5 horas y tu examen práctico.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Historial de intentos anteriores -->
+      <div id="previous-history-container" class="history-section" style="display: none;">
+        <h3><i class="fa-solid fa-clock-rotate-left"></i> Tu Historial de Práctica</h3>
+        <div id="history-list" class="history-list"></div>
+      </div>
+
+      <!-- Botón de Inicio -->
+      <div class="action-footer">
+        <button id="btn-start-exam" class="btn-primary btn-large">
+          <span>Comenzar Examen Oficial</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- PANTALLA 2: EXAMEN EN VIVO -->
+    <section id="screen-exam" class="card" style="display: none;">
+      <!-- Barra de progreso superior -->
+      <div class="exam-header-bar">
+        <div class="progress-meta">
+          <span class="user-badge" id="exam-user-badge"><i class="fa-solid fa-user-check"></i> Naty</span>
+          <span class="question-counter" id="question-counter">Pregunta 1 de 20</span>
+          <span class="progress-percent" id="progress-percent">5%</span>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progress-bar-fill" style="width: 5%;"></div>
+        </div>
+      </div>
+
+      <!-- Contenedor de la Pregunta -->
+      <div class="question-container">
+        <div class="category-tag-wrapper">
+          <span id="category-badge" class="badge-category"><i class="fa-solid fa-road"></i> Regla de Tránsito</span>
+        </div>
+
+        <h3 id="question-text" class="question-text">Cargando pregunta...</h3>
+
+        <!-- Opciones de respuesta -->
+        <div id="options-container" class="options-grid">
+          <!-- Se inyectan dinámicamente con JS -->
+        </div>
+      </div>
+
+      <!-- Barra de navegación y cuadrícula rápida -->
+      <div class="exam-nav-bar">
+        <button id="btn-prev-question" class="btn-secondary" disabled>
+          <i class="fa-solid fa-arrow-left"></i> Anterior
+        </button>
+
+        <!-- Cuadrícula miniatura de 1 a 20 -->
+        <div class="quick-nav-pills" id="quick-nav-pills">
+          <!-- 20 botones pequeños para saltar y ver estado -->
+        </div>
+
+        <button id="btn-next-question" class="btn-primary">
+          <span>Siguiente</span> <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- PANTALLA 3: RESULTADOS Y REPORTE PEDAGÓGICO -->
+    <section id="screen-results" class="card" style="display: none;">
+      <div id="result-status-banner" class="result-banner">
+        <!-- Inyectado por JS: Aprobado / Reprobado -->
+      </div>
+
+      <!-- Tarjeta especial con mensaje personalizado -->
+      <div id="personal-message-card" class="personal-card">
+        <!-- Inyectado por JS -->
+      </div>
+
+      <!-- Métricas y Estadísticas oficiales -->
+      <div class="stats-overview">
+        <div class="stat-box">
+          <div class="stat-number" id="stat-total-score">0%</div>
+          <div class="stat-label">Puntaje Obtenido</div>
+          <div class="stat-sub" id="stat-total-hits">0 de 20 aciertos</div>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-number">70%</div>
+          <div class="stat-label">Mínimo Exigido en NY</div>
+          <div class="stat-sub">14 aciertos mínimos requeridos</div>
+        </div>
+
+        <div class="stat-box" id="stat-box-signs">
+          <div class="stat-number" id="stat-signs-score">0 / 4</div>
+          <div class="stat-label">Señales de Tránsito</div>
+          <div class="stat-sub">Mínimo obligatorio: 2 aciertos</div>
+        </div>
+      </div>
+
+      <!-- Diagnóstico de la prueba -->
+      <div id="result-diagnosis" class="diagnosis-alert"></div>
+
+      <!-- Acciones principales -->
+      <div class="results-actions">
+        <button id="btn-repeat-test" class="btn-primary btn-large">
+          <i class="fa-solid fa-rotate-right"></i> Repetir prueba
+        </button>
+        <button id="btn-return-home" class="btn-secondary btn-large">
+          <i class="fa-solid fa-house"></i> Volver al Inicio
+        </button>
+      </div>
+
+      <!-- SECCIÓN PEDAGÓGICA: REPORTE DETALLADO DE FALLOS -->
+      <div id="mistakes-section" class="mistakes-section">
+        <div class="mistakes-header">
+          <h3>
+            <i class="fa-solid fa-book-open-reader"></i> 
+            Retroalimentación Pedagógica Oficial (Tus Fallos)
+          </h3>
+          <p>
+            Revisa la explicación oficial del NYS DMV de cada pregunta incorrecta para afianzar el conocimiento y no volver a fallar.
+          </p>
+        </div>
+
+        <div id="mistakes-list" class="mistakes-list">
+          <!-- Inyectado por JS: SOLO las respuestas erróneas -->
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <p>Simulador didáctico basado en el Manual del Conductor del Estado de Nueva York (NYS DMV).</p>
+      <p class="copyright">Diseñado con dedicación para que alcances tu meta. ¡Tú puedes, Naty!</p>
+    </footer>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

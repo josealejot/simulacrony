@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "category": "señales_transito",
+    "question": "¿Qué significa una señal de tránsito roja de forma octagonal (ocho lados)?",
+    "options": [
+      "Ceda el paso a los vehículos que se aproximan",
+      "Deténgase por completo y avance solo cuando sea seguro",
+      "Reduzca la velocidad a 15 mph",
+      "Zona de precaución escolar"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Una señal octagonal siempre significa 'ALTO' (STOP). El conductor debe detenerse por completo antes de la línea de parada, cruce peatonal o intersección, y ceder el paso a cualquier vehículo o peatón antes de continuar.",
+    "is_sign_question": true
+  },
+  {
+    "id": 2,
+    "category": "señales_transito",
+    "question": "¿Cuál es el significado de una señal triangular con el vértice apuntando hacia abajo (blanca con borde rojo)?",
+    "options": [
+      "Fin de la zona de adelantamiento",
+      "Ceda el paso (Yield) a peatones y vehículos en la vía principal",
+      "Parada obligatoria de emergencia",
+      "Vía de sentido único"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "La señal triangular invertida es 'CEDA EL PASO' (YIELD). Obliga al conductor a reducir la velocidad y detenerse si es necesario para dar preferencia a peatones y vehículos que ya circulan en la vía a la que se incorpora.",
+    "is_sign_question": true
+  },
+  {
+    "id": 3,
+    "category": "señales_transito",
+    "question": "Una señal circular amarilla con una gran 'X' y las letras 'R R' indica que:",
+    "options": [
+      "Se aproxima a una zona de obras en construcción",
+      "Se aproxima a un cruce de ferrocarril a nivel de la vía",
+      "La calle termina en una curva peligrosa",
+      "Es una zona residencial de velocidad reducida"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "La señal circular amarilla con 'RR' advierte la proximidad de un cruce ferroviario. Debe reducir la velocidad, mirar en ambas direcciones, escuchar si viene un tren y estar preparado para detenerse.",
+    "is_sign_question": true
+  },
+  {
+    "id": 4,
+    "category": "señales_transito",
+    "question": "¿Qué indica una señal amarilla con forma de diamante que muestra un automóvil con líneas onduladas detrás de sus neumáticos?",
+    "options": [
+      "Curva cerrada a la derecha",
+      "Pavimento resbaladizo cuando está húmedo o mojado",
+      "Inicio de autopista de varios carriles",
+      "Cruce frecuente de animales salvajes"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Esta señal advierte que la carretera se vuelve especialmente resbaladiza ante lluvia, nieve o hielo. Debe reducir la velocidad con anticipación y evitar frenazos o giros bruscos.",
+    "is_sign_question": true
+  },
+  {
+    "id": 5,
+    "category": "alcohol_drogas",
+    "question": "Bajo la 'Ley de Consentimiento Implícito' del Estado de Nueva York, ¿a qué se compromete usted al conducir un vehículo de motor?",
+    "options": [
+      "A permitir el registro de su vehículo sin orden judicial",
+      "A someterse a una prueba química de aliento, sangre, orina o saliva si la policía sospecha que conduce bajo la influencia",
+      "A mantener un seguro comercial en todo momento",
+      "A no transportar más de dos pasajeros en la noche"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Al conducir en las vías de NY, usted da su consentimiento automático para realizar pruebas químicas para detectar alcohol o drogas. Negarse resulta en la suspensión/revocación inmediata de la licencia y multas, independientemente de si resulta culpable de DWI o no.",
+    "is_sign_question": false
+  },
+  {
+    "id": 6,
+    "category": "alcohol_drogas",
+    "question": "¿Qué establece la 'Ley de Cero Tolerancia' del Estado de Nueva York para conductores menores de 21 años?",
+    "options": [
+      "Es ilegal conducir con cualquier cantidad medible de alcohol (BAC de 0.02% a 0.07%)",
+      "Solo pueden conducir en compañía de sus padres después de las 9:00 PM",
+      "No pueden consumir bebidas energizantes mientras conducen",
+      "Se permite un BAC máximo de hasta 0.05% si viajan solos"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Para conductores menores de 21 años rige la Cero Tolerancia: un contenido de alcohol en sangre (BAC) de 0.02% o más es una violación legal que conlleva suspensión de la licencia, multas y audiencias administrativas.",
+    "is_sign_question": false
+  },
+  {
+    "id": 7,
+    "category": "alcohol_drogas",
+    "question": "¿Qué método es el ÚNICO comprobado científicamente para reducir la concentración de alcohol en la sangre (BAC) y volver a estar sobrio?",
+    "options": [
+      "Tomar café negro bien cargado",
+      "Tomar una ducha fría y caminar rápido",
+      "El paso del tiempo",
+      "Ingerir alimentos ricos en grasas y carbohidratos"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Solo el tiempo puede sobreelevar a una persona. El hígado procesa el alcohol a un ritmo constante aproximado de una bebida estándar por hora; el café, las duchas o el ejercicio no aceleran este proceso metabólico.",
+    "is_sign_question": false
+  },
+  {
+    "id": 8,
+    "category": "alcohol_drogas",
+    "question": "En cuanto a contenido de alcohol, una lata de cerveza regular de 12 onzas (5% de alcohol) equivale aproximadamente a:",
+    "options": [
+      "Una copa de vino de 5 onzas (12% de alcohol) o un trago de 1.5 onzas de licor destilado (80 proof)",
+      "Dos botellas enteras de vino de mesa",
+      "El doble de alcohol que cualquier bebida destilada",
+      "La mitad de alcohol que una cerveza ligera"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Una porción estándar de 12 oz de cerveza, 5 oz de vino de mesa y 1.5 oz de licor destilado (como ron, vodka o whisky) contienen exactamente la misma cantidad de alcohol puro (aproximadamente 0.6 oz o 14 gramos).",
+    "is_sign_question": false
+  },
+  {
+    "id": 9,
+    "category": "derecho_paso",
+    "question": "Cuando dos vehículos llegan al mismo tiempo a una intersección de cuatro vías sin señales de control de tránsito, ¿quién tiene el derecho de paso?",
+    "options": [
+      "El vehículo que viaja más rápido",
+      "El vehículo de mayor tamaño",
+      "El vehículo que está ubicado a la derecha",
+      "El vehículo que está ubicado a la izquierda"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Regla de oro de NY: Si dos vehículos llegan simultáneamente a una intersección no regulada, el conductor de la izquierda debe ceder el paso al conductor que se encuentra a su derecha.",
+    "is_sign_question": false
+  },
+  {
+    "id": 10,
+    "category": "derecho_paso",
+    "question": "Al prepararse para realizar un giro a la izquierda en una intersección con semáforo en verde fijo (circular), usted debe:",
+    "options": [
+      "Girar de inmediato antes de que los vehículos de enfrente aceleren",
+      "Tocar la bocina y girar lentamente",
+      "Ceder el paso al tráfico que viene en sentido contrario y a los peatones en el cruce",
+      "Avanzar únicamente si no hay automóviles detrás de usted"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Al girar a la izquierda con luz verde redonda, usted NO tiene el paso preferente: debe ceder el paso a todos los vehículos que se aproximan en dirección contraria y a los peatones que cruzan la calle hacia la cual girará.",
+    "is_sign_question": false
+  },
+  {
+    "id": 11,
+    "category": "derecho_paso",
+    "question": "¿Qué debe hacer un conductor al escuchar una sirena o ver las luces rojas/azules destellantes de un vehículo de emergencia que se aproxima?",
+    "options": [
+      "Acelerar para despejar la intersección lo más rápido posible",
+      "Moverse de inmediato al borde o acera derecha de la carretera y detenerse por completo",
+      "Detenerse inmediatamente en el carril exacto en el que circula",
+      "Cambiar al carril izquierdo y continuar a velocidad normal"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Debe orillarse de manera segura y controlada hacia el borde derecho del camino o acera y detener su vehículo por completo hasta que el vehículo de emergencia haya pasado, dejando libre el centro y carril izquierdo.",
+    "is_sign_question": false
+  },
+  {
+    "id": 12,
+    "category": "derecho_paso",
+    "question": "Al entrar a una rotonda o glorieta de tráfico (traffic circle / roundabout), ¿quién tiene la prioridad de paso?",
+    "options": [
+      "El vehículo que va a entrar a la rotonda",
+      "Los vehículos que ya están circulando dentro de la rotonda",
+      "El vehículo que circula a mayor velocidad",
+      "El vehículo que desea salir de la rotonda hacia la derecha"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Los vehículos que ya se encuentran dentro del carril circular de la rotonda tienen preferencia de paso. Los conductores que entran deben ceder el paso ante ellos y esperar un espacio seguro.",
+    "is_sign_question": false
+  },
+  {
+    "id": 13,
+    "category": "derecho_paso",
+    "question": "Al salir de un estacionamiento privado, garaje o camino de entrada (driveway) hacia una calle pública, usted debe:",
+    "options": [
+      "Avanzar si ningún vehículo le hace cambio de luces",
+      "Detenerse por completo y ceder el paso tanto a peatones en la acera como al tráfico en la calle",
+      "Tocar la bocina y salir sin detenerse",
+      "Reclamar el paso si ya colocó la señal de giro"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Los vehículos que salen de propiedades privadas, callejones o garajes no tienen derecho de paso. Deben detenerse antes de la acera para permitir el paso seguro de peatones y luego ceder ante todos los vehículos de la vía pública.",
+    "is_sign_question": false
+  },
+  {
+    "id": 14,
+    "category": "reglas_camino",
+    "question": "¿Cuál es la 'regla de los dos segundos' recomendada en el Manual del Conductor de Nueva York?",
+    "options": [
+      "El tiempo máximo permitido para pasar por una luz amarilla",
+      "La distancia mínima de seguimiento segura detrás del vehículo que va delante en condiciones ideales",
+      "El tiempo que debe mantener encendidas las luces intermitentes al orillarse",
+      "El tiempo reglamentario para completar un giro en U"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "La regla de los dos segundos permite mantener una distancia de frenado segura. Elija un punto de referencia fijo; cuando el vehículo de adelante lo pase, cuente 'mil uno, mil dos'. Si pasa el punto antes de terminar, está siguiendo demasiado cerca.",
+    "is_sign_question": false
+  },
+  {
+    "id": 15,
+    "category": "reglas_camino",
+    "question": "A menos que se indique lo contrario mediante señales oficiales, ¿cuál es el límite de velocidad máxima en la Ciudad de Nueva York (NYC)?",
+    "options": [
+      "35 mph (56 km/h)",
+      "25 mph (40 km/h)",
+      "30 mph (48 km/h)",
+      "20 mph (32 km/h)"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Bajo la ley de la Ciudad de Nueva York (Vision Zero), el límite de velocidad predeterminado para toda la ciudad en calles residenciales y avenidas es de 25 mph, a menos que una señal señale una velocidad diferente.",
+    "is_sign_question": false
+  },
+  {
+    "id": 16,
+    "category": "reglas_camino",
+    "question": "¿Qué exige la ley de Nueva York respecto al uso del cinturón de seguridad en vehículos de pasajeros?",
+    "options": [
+      "Solo el conductor y el pasajero delantero deben usarlo obligatoriamente",
+      "Todos los ocupantes del vehículo, tanto en los asientos delanteros como traseros, deben usar cinturón de seguridad sin importar la edad",
+      "Los pasajeros traseros mayores de 16 años pueden viajar sin cinturón",
+      "Solo es obligatorio al circular por autopistas y carreteras interestatales"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "En el Estado de Nueva York, desde noviembre de 2020, TODOS los ocupantes de un vehículo de motor (tanto adelante como atrás) deben llevar puesto el cinturón de seguridad debidamente abrochado.",
+    "is_sign_question": false
+  },
+  {
+    "id": 17,
+    "category": "reglas_camino",
+    "question": "Cuando un autobús escolar se detiene y activa sus luces rojas intermitentes con el brazo de 'STOP' extendido, ¿qué deben hacer los conductores?",
+    "options": [
+      "Reducir a 15 mph y pasar con extrema precaución",
+      "Detenerse al menos a 20 pies de distancia, sin importar si viajan en la misma dirección o en sentido contrario, incluso en carreteras divididas",
+      "Solo detenerse si viajan directamente detrás del autobús",
+      "Tocar la bocina y continuar si no hay niños cruzando la calle"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "La ley de NY es estricta: debe detenerse a un mínimo de 20 pies del autobús escolar con luces rojas, desde cualquier dirección (frente o detrás), incluso en carreteras divididas con barreras centrales o caminos multicarril.",
+    "is_sign_question": false
+  },
+  {
+    "id": 18,
+    "category": "reglas_camino",
+    "question": "¿Qué debe hacer si su vehículo comienza a sufrir 'hidroplaneo' (patinaje sobre una película de agua) durante una lluvia fuerte?",
+    "options": [
+      "Pisar el pedal de freno a fondo y tirar del freno de mano",
+      "Girar el volante con rapidez de izquierda a derecha para recuperar tracción",
+      "Retirar suavemente el pie del acelerador y mantener el volante derecho hasta que las ruedas toquen el asfalto",
+      "Acelerar con firmeza para atravesar la acumulación de agua"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Al hidroplanear, los neumáticos pierden contacto con la carretera. No frene bruscamente ni gire el volante bruscamente. Suelte el acelerador gradualmente, mantenga la dirección firme y espere a que el peso del vehículo recupere el agarre.",
+    "is_sign_question": false
+  },
+  {
+    "id": 19,
+    "category": "reglas_camino",
+    "question": "Antes de cambiar de carril en una autopista o avenida, además de activar la señal de giro y mirar los espejos retrovisores, usted debe:",
+    "options": [
+      "Tocar la bocina dos veces cortas para alertar a otros conductores",
+      "Girar la cabeza y mirar sobre su hombro para comprobar el punto ciego (blind spot)",
+      "Reducir su velocidad a la mitad",
+      "Esperar a que el vehículo detrás le dé luces altas"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Los espejos no muestran toda el área lateral trasera del auto (los puntos ciegos). Es indispensable hacer un vistazo rápido por encima del hombro hacia el lado al que desea moverse antes de iniciar la maniobra.",
+    "is_sign_question": false
+  },
+  {
+    "id": 20,
+    "category": "reglas_camino",
+    "question": "¿En qué condiciones climáticas exige la ley de Nueva York encender las luces bajas (headlights) del vehículo?",
+    "options": [
+      "Únicamente desde la medianoche hasta el amanecer",
+      "Siempre que se activen los limpiaparabrisas debido a lluvia, aguanieve, nieve o niebla, y desde media hora después de la puesta del sol hasta media hora antes del amanecer",
+      "Solo cuando la visibilidad sea menor a 50 pies",
+      "Solamente al circular dentro de túneles"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "La ley de NY exige luces encendidas desde media hora después del anochecer hasta media hora antes del amanecer, y SIEMPRE que las condiciones del clima requieran el uso de los limpiaparabrisas. Las luces altas no deben usarse con niebla o lluvia porque reflejan el resplandor.",
+    "is_sign_question": false
+  }
+]
