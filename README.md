@@ -6,19 +6,24 @@ Aplicación web interactiva en Python y JavaScript diseñada para preparar a can
 
 ## 🌟 Características Principales
 
-1. **20 Preguntas Oficiales en Español:**
-   - Proporción idéntica a la prueba real del NY DMV: 4 de señales de tránsito, 4 de alcohol y drogas, 5 de derecho de paso y 7 de normas de circulación.
-2. **Evaluación Dual Rigurosa (Reglas Oficiales del NYS DMV):**
-   - **Criterio Global:** Mínimo **70%** (al menos 14 de 20 preguntas acertadas).
-   - **Regla Crítica de Señales:** Mínimo **2 de las 4 preguntas de señales** obligatoriamente acertadas (descalificación inmediata si no se cumple, aún teniendo más de 14 aciertos totales).
-3. **Persistencia en Memoria Local (`localStorage`):**
+1. **50 Preguntas Oficiales Avanzadas en Español:**
+   - Nivel de dificultad avanzado que requiere lógica, juicio situacional y conocimiento exhaustivo del *Manual del Conductor de NY*.
+   - Incluye 10 preguntas críticas de señales, dilemas de intersección (4-Way Stop, rotondas, buses escolares con mediana), física de frenado (ABS, hidroplaneo a 50 mph, reventón a 65 mph, hielo negro en puentes), leyes Move Over, Leandra's Law y consecuencias administrativas de Implied Consent y Zero Tolerance.
+2. **Navegación Móvil Moderna y Fluida:**
+   - Carrusel horizontal interactivo de píldoras con auto-centrado suave para evitar acumulaciones verticales en pantallas de teléfonos.
+   - Acceso con un toque a un **Mapa Modal de 50 preguntas** con código de colores (Respondidas, Actual, Pendientes y Señales Críticas).
+   - Botones de acción táctiles cómodos y optimizados para pulgares.
+3. **Evaluación Dual Rigurosa (Reglas Oficiales del NYS DMV):**
+   - **Criterio Global:** Mínimo **70%** (al menos 35 de 50 preguntas acertadas).
+   - **Regla Crítica de Señales:** Mínimo **70% de aciertos en señales** (al menos 7 de 10 acertadas).
+4. **Persistencia en Memoria Local (`localStorage`):**
    - Guarda el nombre del usuario y el historial de intentos anteriores con fecha, aciertos y puntaje.
-4. **Mensajes Personalizados y Motivacionales:**
+5. **Mensajes Personalizados y Motivacionales:**
    - **Si Aprueba:** Mensaje destacado con animación de confeti:  
      `"Naty eres el amor de mi vida y la mejor del mundo mundial. Estoy orgulloso de ti, sigue adelante"`
    - **Si Reprueba:** Mensaje de aliento:  
      `"¡No te rindas mi amor, cada error es un paso más para aprender! Tú puedes con esto."` con botón directo para **Repetir prueba**.
-5. **Retroalimentación Pedagógica Oficial:**
+6. **Retroalimentación Pedagógica Oficial:**
    - Al finalizar, despliega **únicamente las preguntas erróneas**, mostrando la respuesta dada por el usuario, la respuesta correcta oficial y la explicación extraída del *Manual del Conductor de NY*.
 
 ---
@@ -26,9 +31,9 @@ Aplicación web interactiva en Python y JavaScript diseñada para preparar a can
 ## 📁 Estructura del Proyecto
 
 ```text
-├── app.py                 # Servidor Flask con endpoints de API y calificación
-├── simulador_dmv.py       # Versión de consola en Python para pruebas locales
-├── preguntas_dmv_ny.json  # Banco de 20 preguntas oficiales en español
+├── app.py                 # Servidor Flask con endpoints de API y calificación dinámica
+├── simulador_dmv.py       # Versión de consola en Python para pruebas locales (50 preguntas)
+├── preguntas_dmv_ny.json  # Banco de 50 preguntas oficiales avanzadas en español
 ├── requirements.txt       # Dependencias (Flask, gunicorn)
 ├── Procfile               # Comando de ejecución en Render.com
 ├── render.yaml            # Configuración de despliegue automático

@@ -43,12 +43,13 @@
       <div class="welcome-hero">
         <div class="flag-banner">
           <span class="state-pill"><i class="fa-solid fa-shield-halved"></i> Estado de Nueva York</span>
+          <span class="lang-pill"><i class="fa-solid fa-brain"></i> Nivel Avanzado y Situacional</span>
           <span class="lang-pill"><i class="fa-solid fa-earth-americas"></i> 100% en Español</span>
         </div>
-        <h2>¡Prepárate para obtener tu licencia en NY!</h2>
+        <h2>Simulador Oficial DMV NY: Edición Avanzada</h2>
         <p class="hero-desc">
-          Este simulador reproduce con total fidelidad las 20 preguntas del examen del DMV de Nueva York, 
-          aplicando las reglas oficiales de descalificación y evaluación dual.
+          Esta prueba de alta exigencia consta de <strong>50 preguntas complejas</strong> basadas en el Manual del Conductor de Nueva York. 
+          Pondrá a prueba tu lógica, criterio de manejo defensivo, física de frenado y dominio de las leyes más estrictas del Estado.
         </p>
       </div>
 
@@ -71,8 +72,8 @@
         <div class="rule-card">
           <div class="rule-icon"><i class="fa-solid fa-list-check"></i></div>
           <div class="rule-info">
-            <h4>20 Preguntas</h4>
-            <p>Selección múltiple con la proporción real del examen del NYS DMV.</p>
+            <h4>50 Preguntas</h4>
+            <p>Dilemas de intersección, física vial, Move Over, Leandra's Law y situaciones reales.</p>
           </div>
         </div>
 
@@ -80,7 +81,7 @@
           <div class="rule-icon"><i class="fa-solid fa-bullseye"></i></div>
           <div class="rule-info">
             <h4>70% para Aprobar</h4>
-            <p>Debes contestar correctamente al menos <strong>14 de 20 preguntas</strong>.</p>
+            <p>Debes contestar correctamente al menos <strong>35 de 50 preguntas</strong>.</p>
           </div>
         </div>
 
@@ -88,15 +89,15 @@
           <div class="rule-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
           <div class="rule-info">
             <h4>Regla Crítica de Señales</h4>
-            <p>Obligatorio acertar al menos <strong>2 de las 4 preguntas de señales</strong>.</p>
+            <p>Obligatorio acertar al menos el <strong>70% de las preguntas de señales</strong> (mínimo 7 de 10).</p>
           </div>
         </div>
 
         <div class="rule-card">
           <div class="rule-icon"><i class="fa-solid fa-graduation-cap"></i></div>
           <div class="rule-info">
-            <h4>Paso Previo al MV-278</h4>
-            <p>Al aprobar, estarás listo/a para el curso de 5 horas y tu examen práctico.</p>
+            <h4>Criterio y Lógica</h4>
+            <p>Preguntas diseñadas para evaluar tu capacidad de respuesta defensiva bajo presión.</p>
           </div>
         </div>
       </div>
@@ -110,7 +111,7 @@
       <!-- Botón de Inicio -->
       <div class="action-footer">
         <button id="btn-start-exam" class="btn-primary btn-large">
-          <span>Comenzar Examen Oficial</span>
+          <span>Comenzar Examen de 50 Preguntas</span>
           <i class="fa-solid fa-arrow-right"></i>
         </button>
       </div>
@@ -122,11 +123,14 @@
       <div class="exam-header-bar">
         <div class="progress-meta">
           <span class="user-badge" id="exam-user-badge"><i class="fa-solid fa-user-check"></i> Naty</span>
-          <span class="question-counter" id="question-counter">Pregunta 1 de 20</span>
-          <span class="progress-percent" id="progress-percent">5%</span>
+          <span class="question-counter" id="question-counter">Pregunta 1 de 50</span>
+          <button type="button" id="btn-toggle-map" class="btn-map-toggle" title="Abrir mapa de preguntas">
+            <i class="fa-solid fa-table-cells"></i> <span id="map-answered-counter">0/50</span>
+          </button>
+          <span class="progress-percent" id="progress-percent">2%</span>
         </div>
         <div class="progress-bar-track">
-          <div class="progress-bar-fill" id="progress-bar-fill" style="width: 5%;"></div>
+          <div class="progress-bar-fill" id="progress-bar-fill" style="width: 2%;"></div>
         </div>
       </div>
 
@@ -144,22 +148,69 @@
         </div>
       </div>
 
-      <!-- Barra de navegación y cuadrícula rápida -->
+      <!-- Barra de navegación fluida y responsiva -->
       <div class="exam-nav-bar">
-        <button id="btn-prev-question" class="btn-secondary" disabled>
-          <i class="fa-solid fa-arrow-left"></i> Anterior
-        </button>
-
-        <!-- Cuadrícula miniatura de 1 a 20 -->
-        <div class="quick-nav-pills" id="quick-nav-pills">
-          <!-- 20 botones pequeños para saltar y ver estado -->
+        <!-- Carrusel horizontal de píldoras numeradas con scroll suave -->
+        <div class="quick-nav-wrapper">
+          <button type="button" id="btn-scroll-pills-left" class="nav-pill-arrow" title="Ver anteriores">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <div class="quick-nav-pills" id="quick-nav-pills">
+            <!-- 50 píldoras compactas para saltar y ver estado -->
+          </div>
+          <button type="button" id="btn-scroll-pills-right" class="nav-pill-arrow" title="Ver siguientes">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
         </div>
 
-        <button id="btn-next-question" class="btn-primary">
-          <span>Siguiente</span> <i class="fa-solid fa-arrow-right"></i>
-        </button>
+        <!-- Botones de Acción (Anterior, Mapa y Siguiente) -->
+        <div class="exam-nav-actions">
+          <button id="btn-prev-question" class="btn-secondary nav-action-btn" disabled>
+            <i class="fa-solid fa-arrow-left"></i> <span>Anterior</span>
+          </button>
+
+          <button id="btn-open-map-mobile" class="btn-secondary nav-action-btn mobile-only-btn" title="Ver cuadrícula de 50 preguntas">
+            <i class="fa-solid fa-grip"></i> <span>Mapa</span>
+          </button>
+
+          <button id="btn-next-question" class="btn-primary nav-action-btn">
+            <span>Siguiente</span> <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
       </div>
     </section>
+
+    <!-- MODAL / SHEET: MAPA COMPLETO DE LAS 50 PREGUNTAS -->
+    <div id="modal-questions-map" class="map-modal-backdrop" style="display: none;">
+      <div class="map-modal-content">
+        <div class="map-modal-header">
+          <div class="map-modal-title">
+            <i class="fa-solid fa-table-cells-large"></i>
+            <h3>Mapa del Examen (50 Preguntas)</h3>
+          </div>
+          <button type="button" id="btn-close-map-modal" class="btn-close-modal" title="Cerrar mapa">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <!-- Leyenda -->
+        <div class="map-legend">
+          <span class="legend-item"><span class="legend-dot answered"></span> Respondida</span>
+          <span class="legend-item"><span class="legend-dot current"></span> Pregunta Actual</span>
+          <span class="legend-item"><span class="legend-dot pending"></span> Pendiente</span>
+          <span class="legend-item"><span class="legend-dot sign"><i class="fa-solid fa-triangle-exclamation"></i></span> Señal Crítica</span>
+        </div>
+
+        <div class="map-progress-summary">
+          <span id="map-summary-text">0 de 50 preguntas respondidas</span>
+        </div>
+
+        <!-- Cuadrícula interactiva -->
+        <div class="map-grid-container" id="map-grid-container">
+          <!-- Se inyectan 50 badges con JS -->
+        </div>
+      </div>
+    </div>
 
     <!-- PANTALLA 3: RESULTADOS Y REPORTE PEDAGÓGICO -->
     <section id="screen-results" class="card" style="display: none;">
@@ -177,19 +228,19 @@
         <div class="stat-box">
           <div class="stat-number" id="stat-total-score">0%</div>
           <div class="stat-label">Puntaje Obtenido</div>
-          <div class="stat-sub" id="stat-total-hits">0 de 20 aciertos</div>
+          <div class="stat-sub" id="stat-total-hits">0 de 50 aciertos</div>
         </div>
 
         <div class="stat-box">
           <div class="stat-number">70%</div>
           <div class="stat-label">Mínimo Exigido en NY</div>
-          <div class="stat-sub">14 aciertos mínimos requeridos</div>
+          <div class="stat-sub" id="stat-required-hits">35 aciertos mínimos requeridos</div>
         </div>
 
         <div class="stat-box" id="stat-box-signs">
-          <div class="stat-number" id="stat-signs-score">0 / 4</div>
+          <div class="stat-number" id="stat-signs-score">0 / 10</div>
           <div class="stat-label">Señales de Tránsito</div>
-          <div class="stat-sub">Mínimo obligatorio: 2 aciertos</div>
+          <div class="stat-sub" id="stat-signs-sub">Mínimo obligatorio: 7 aciertos (70%)</div>
         </div>
       </div>
 

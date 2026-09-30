@@ -86,8 +86,11 @@ def api_evaluar():
 
     porcentaje_obtenido = round((total_aciertos / total_preguntas) * 100, 1) if total_preguntas > 0 else 0
     
-    cumple_total = total_aciertos >= 14
-    cumple_senales = aciertos_senales >= 2 if total_senales >= 4 else True
+    minimo_aciertos = int(round(total_preguntas * 0.70))
+    minimo_senales = max(2, int(round(total_senales * 0.70))) if total_senales > 0 else 0
+
+    cumple_total = total_aciertos >= minimo_aciertos
+    cumple_senales = aciertos_senales >= minimo_senales
     aprobado = cumple_total and cumple_senales
 
     mensaje_aprobado = "Naty eres el amor de mi vida y la mejor del mundo mundial. Estoy orgulloso de ti, sigue adelante"
@@ -97,11 +100,11 @@ def api_evaluar():
     motivo_fallo = ""
     if not aprobado:
         if not cumple_total and not cumple_senales:
-            motivo_fallo = "No se alcanzó el puntaje global mínimo (14/20) ni el mínimo requerido en señales de tránsito (2/4)."
+            motivo_fallo = f"No se alcanzó el puntaje global mínimo ({total_aciertos}/{minimo_aciertos}) ni el mínimo requerido en señales de tránsito ({aciertos_senales}/{minimo_senales})."
         elif not cumple_total:
-            motivo_fallo = f"Se obtuvieron {total_aciertos} aciertos generales de 20 (Mínimo requerido: 14 aciertos)."
+            motivo_fallo = f"Se obtuvieron {total_aciertos} aciertos generales de {total_preguntas} (Mínimo requerido: {minimo_aciertos} aciertos - 70%)."
         elif not cumple_senales:
-            motivo_fallo = f"Regla crítica de descalificación: Obtuviste {aciertos_senales} aciertos de 4 en señales de tránsito (Mínimo requerido: 2 aciertos)."
+            motivo_fallo = f"Regla crítica de señales de tránsito: Obtuviste {aciertos_senales} aciertos de {total_senales} en señales (Mínimo requerido: {minimo_senales} aciertos)."
 
     return jsonify({
         "status": "success",
@@ -111,10 +114,10 @@ def api_evaluar():
         "total_aciertos": total_aciertos,
         "porcentaje_obtenido": porcentaje_obtenido,
         "porcentaje_minimo_requerido": 70.0,
-        "aciertos_minimos_requeridos": 14,
+        "aciertos_minimos_requeridos": minimo_aciertos,
         "total_senales": total_senales,
         "aciertos_senales": aciertos_senales,
-        "senales_minimas_requeridas": 2,
+        "senales_minimas_requeridas": minimo_senales,
         "cumple_total": cumple_total,
         "cumple_senales": cumple_senales,
         "motivo_fallo": motivo_fallo,

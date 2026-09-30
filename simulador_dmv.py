@@ -42,11 +42,12 @@ def cargar_preguntas(ruta_json="preguntas_dmv_ny.json"):
 def mostrar_encabezado():
     print(f"{Color.AZUL}{Color.BOLD}{'=' * 75}{Color.RESET}")
     print(f"{Color.CYAN}{Color.BOLD}   SIMULADOR OFICIAL DEL EXAMEN TEÓRICO DE MANEJO - NYS DMV (ESPAÑOL){Color.RESET}")
+    print(f"{Color.CYAN}{Color.BOLD}                EDICIÓN AVANZADA Y SITUACIONAL (50 PREGUNTAS)         {Color.RESET}")
     print(f"{Color.AZUL}{Color.BOLD}{'=' * 75}{Color.RESET}")
     print(f"{Color.BOLD}Parámetros oficiales del Estado de Nueva York:{Color.RESET}")
-    print(f"  • Total de preguntas: {Color.BOLD}20 preguntas{Color.RESET}")
-    print(f"  • Puntuación mínima global requerida: {Color.BOLD}70% (mínimo 14 aciertos de 20){Color.RESET}")
-    print(f"  • Regla crítica de señales: {Color.BOLD}Debe acertar al menos 2 de las 4 preguntas de señales{Color.RESET}")
+    print(f"  • Total de preguntas: {Color.BOLD}50 preguntas avanzadas{Color.RESET}")
+    print(f"  • Puntuación mínima global requerida: {Color.BOLD}70% (mínimo 35 aciertos de 50){Color.RESET}")
+    print(f"  • Regla crítica de señales: {Color.BOLD}Mínimo 70% de aciertos en preguntas de señales{Color.RESET}")
     print(f"{Color.AZUL}{'=' * 75}{Color.RESET}\n")
 
 def realizar_examen(preguntas):
@@ -113,8 +114,11 @@ def evaluar_y_reportar(respuestas):
     total_senales = len(preguntas_senales)
     aciertos_senales = sum(1 for r in preguntas_senales if r["es_correcta"])
     
-    cumple_total = total_aciertos >= 14
-    cumple_senales = aciertos_senales >= 2 if total_senales >= 4 else True
+    minimo_aciertos = int(round(total_preguntas * 0.70))
+    minimo_senales = max(2, int(round(total_senales * 0.70))) if total_senales > 0 else 0
+    
+    cumple_total = total_aciertos >= minimo_aciertos
+    cumple_senales = aciertos_senales >= minimo_senales
     
     aprobado = cumple_total and cumple_senales
     
@@ -136,19 +140,19 @@ def evaluar_y_reportar(respuestas):
         
         # Explicación de por qué no aprobó según las reglas
         if not cumple_total and not cumple_senales:
-            print(f"{Color.ROJO}Motivo: No se alcanzó el puntaje mínimo general (se necesitan 14) ni el mínimo de señales (se necesitan 2).{Color.RESET}")
+            print(f"{Color.ROJO}Motivo: No se alcanzó el puntaje mínimo general ({total_aciertos}/{minimo_aciertos}) ni el mínimo de señales ({aciertos_senales}/{minimo_senales}).{Color.RESET}")
         elif not cumple_total:
-            print(f"{Color.ROJO}Motivo: Se obtuvieron {total_aciertos} aciertos generales de 20 (mínimo requerido: 14).{Color.RESET}")
+            print(f"{Color.ROJO}Motivo: Se obtuvieron {total_aciertos} aciertos generales de {total_preguntas} (mínimo requerido: {minimo_aciertos} - 70%).{Color.RESET}")
         elif not cumple_senales:
-            print(f"{Color.ROJO}Motivo CRÍTICO: Aunque aprobó el total general, reprobó la sección de señales de tránsito con {aciertos_senales}/{total_senales} (mínimo requerido: 2 de 4).{Color.RESET}")
+            print(f"{Color.ROJO}Motivo CRÍTICO: Aunque aprobó el total general, reprobó la sección de señales de tránsito con {aciertos_senales}/{total_senales} (mínimo requerido: {minimo_senales}).{Color.RESET}")
         print()
 
     # B y C) Porcentajes y comparativa oficial de NY
     print(f"{Color.BOLD}--- RESUMEN DE PUNTUACIÓN ---{Color.RESET}")
     print(f"• Aciertos totales obtenidos: {Color.BOLD}{total_aciertos} de {total_preguntas}{Color.RESET}")
     print(f"• Porcentaje total obtenido: {Color.BOLD}{porcentaje_obtenido:.1f}%{Color.RESET}")
-    print(f"• Porcentaje mínimo requerido por el Estado de NY: {Color.BOLD}70.0% (14 de 20 aciertos){Color.RESET}")
-    print(f"• Sección de señales de tránsito: {Color.BOLD}{aciertos_senales} de {total_senales} acertadas{Color.RESET} (Mínimo obligatorio: 2 aciertos / 50%)")
+    print(f"• Porcentaje mínimo requerido por el Estado de NY: {Color.BOLD}70.0% ({minimo_aciertos} de {total_preguntas} aciertos){Color.RESET}")
+    print(f"• Sección de señales de tránsito: {Color.BOLD}{aciertos_senales} de {total_senales} acertadas{Color.RESET} (Mínimo obligatorio: {minimo_senales} aciertos)")
     print(f"{Color.AZUL}{'-' * 75}{Color.RESET}\n")
 
     # D) Resumen de preguntas incorrectas con pedagogía

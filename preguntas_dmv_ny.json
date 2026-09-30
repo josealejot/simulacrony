@@ -2,281 +2,701 @@
   {
     "id": 1,
     "category": "señales_transito",
-    "question": "¿Qué significa una señal de tránsito roja de forma octagonal (ocho lados)?",
+    "question": "Llegas a una intersección regulada con una señal octagonal de 'STOP' y una línea blanca de parada en el pavimento. Al detenerte detrás de la línea, notas que un seto alto y vehículos aparcados bloquean totalmente la vista del tráfico transversal. ¿Cuál es el procedimiento legal y seguro según el DMV de NY?",
     "options": [
-      "Ceda el paso a los vehículos que se aproximan",
-      "Deténgase por completo y avance solo cuando sea seguro",
-      "Reduzca la velocidad a 15 mph",
-      "Zona de precaución escolar"
+      "Avanzar despacio sin detenerse detrás de la línea para tener visibilidad de una sola vez",
+      "Detenerse por completo detrás de la línea de parada, y luego avanzar lentamente unos pies hasta tener visibilidad clara y volver a detenerse si viene tráfico antes de ingresar",
+      "Tocar la bocina y cruzar con precaución si no escucha ningún motor",
+      "Esperar a que un vehículo detrás le haga cambio de luces indicando que puede avanzar"
     ],
     "correct_answer_index": 1,
-    "explanation": "Una señal octagonal siempre significa 'ALTO' (STOP). El conductor debe detenerse por completo antes de la línea de parada, cruce peatonal o intersección, y ceder el paso a cualquier vehículo o peatón antes de continuar.",
+    "explanation": "En NYS DMV, debe detenerse por completo ANTES de la línea de parada o paso de peatones. Si la visibilidad está obstruida, solo después de hacer la parada reglamentaria puede avanzar suavemente hasta el punto de visión y ceder el paso antes de incorporarse.",
     "is_sign_question": true
   },
   {
     "id": 2,
     "category": "señales_transito",
-    "question": "¿Cuál es el significado de una señal triangular con el vértice apuntando hacia abajo (blanca con borde rojo)?",
+    "question": "Usted se aproxima a una rampa de entrada a una autopista que tiene una señal triangular invertida de 'CEDA EL PASO' (YIELD). El carril derecho de la autopista está totalmente congestionado y no hay espacio para ingresar con fluidez a la velocidad de la vía. ¿Qué debe hacer según la ley vial?",
     "options": [
-      "Fin de la zona de adelantamiento",
-      "Ceda el paso (Yield) a peatones y vehículos en la vía principal",
-      "Parada obligatoria de emergencia",
-      "Vía de sentido único"
+      "Forzar la entrada al carril interponiendo la trompa de su vehículo para que le den paso",
+      "Conducir por el arcén (shoulder) de la autopista hasta encontrar un hueco",
+      "Detenerse por completo antes de ingresar a la autopista y esperar pacientemente una brecha segura en el flujo de tráfico",
+      "Continuar a 15 mph sin detenerse bajo ninguna circunstancia porque en autopista está prohibido parar"
     ],
-    "correct_answer_index": 1,
-    "explanation": "La señal triangular invertida es 'CEDA EL PASO' (YIELD). Obliga al conductor a reducir la velocidad y detenerse si es necesario para dar preferencia a peatones y vehículos que ya circulan en la vía a la que se incorpora.",
+    "correct_answer_index": 2,
+    "explanation": "Aunque en una incorporación se busca igualar la velocidad del tráfico, la señal de CEDA EL PASO (YIELD) exige detenerse por completo si el tráfico existente no permite una incorporación segura sin poner en peligro a los demás.",
     "is_sign_question": true
   },
   {
     "id": 3,
     "category": "señales_transito",
-    "question": "Una señal circular amarilla con una gran 'X' y las letras 'R R' indica que:",
+    "question": "Se aproxima a un cruce de ferrocarril y las luces rojas intermitentes se encienden, pero la barrera aún no ha comenzado a bajar y no se divisa ningún tren en los rieles. ¿Cuál es la distancia legal obligatoria en NY para detener su vehículo?",
     "options": [
-      "Se aproxima a una zona de obras en construcción",
-      "Se aproxima a un cruce de ferrocarril a nivel de la vía",
-      "La calle termina en una curva peligrosa",
-      "Es una zona residencial de velocidad reducida"
+      "Detenerse a no menos de 15 pies (4.5 metros) ni más de 50 pies (15 metros) del riel más cercano",
+      "Acelerar rápidamente para cruzar antes de que la barrera comience a bajar",
+      "Detenerse a exactamente 5 pies del riel más cercano",
+      "Detenerse únicamente si la barrera de seguridad ha descendido hasta la mitad"
     ],
-    "correct_answer_index": 1,
-    "explanation": "La señal circular amarilla con 'RR' advierte la proximidad de un cruce ferroviario. Debe reducir la velocidad, mirar en ambas direcciones, escuchar si viene un tren y estar preparado para detenerse.",
+    "correct_answer_index": 0,
+    "explanation": "La ley del Estado de NY establece que cuando se activan señales de advertencia o luces intermitentes en un cruce ferroviario, el conductor debe detenerse a una distancia obligatoria de entre 15 y 50 pies del riel más próximo.",
     "is_sign_question": true
   },
   {
     "id": 4,
     "category": "señales_transito",
-    "question": "¿Qué indica una señal amarilla con forma de diamante que muestra un automóvil con líneas onduladas detrás de sus neumáticos?",
+    "question": "Conduciendo en un día caluroso de verano, empieza una lluvia ligera y usted observa una señal amarilla con forma de diamante con un vehículo derrapando. ¿Por qué este momento exacto es el más peligroso según la física vial?",
     "options": [
-      "Curva cerrada a la derecha",
-      "Pavimento resbaladizo cuando está húmedo o mojado",
-      "Inicio de autopista de varios carriles",
-      "Cruce frecuente de animales salvajes"
+      "Porque el agua se evapora inmediatamente creando una cortina de vapor en el parabrisas",
+      "Porque durante los primeros 10 a 15 minutos, el agua se mezcla con los residuos de aceite y grasa en el pavimento antes de lavarlos, haciéndolo extremadamente resbaladizo",
+      "Porque los frenos del vehículo se calientan y pierden presión de líquido de frenos",
+      "Porque los limpiaparabrisas rayan el cristal con el polvo acumulado"
     ],
     "correct_answer_index": 1,
-    "explanation": "Esta señal advierte que la carretera se vuelve especialmente resbaladiza ante lluvia, nieve o hielo. Debe reducir la velocidad con anticipación y evitar frenazos o giros bruscos.",
+    "explanation": "Los primeros minutos de lluvia son los más traicioneros: el agua flota sobre los depósitos de grasa y aceite acumulados en el asfalto formando una película resbaladiza. Solo tras un tiempo de lluvia constante estos residuos son lavados.",
     "is_sign_question": true
   },
   {
     "id": 5,
-    "category": "alcohol_drogas",
-    "question": "Bajo la 'Ley de Consentimiento Implícito' del Estado de Nueva York, ¿a qué se compromete usted al conducir un vehículo de motor?",
+    "category": "señales_transito",
+    "question": "Usted divisa una señal con forma pentagonal (cinco lados, parecida a una casa pequeña) de color amarillo verdoso fluorescente con dos figuras caminando. ¿Qué indica esta forma geométrica exclusiva y qué regla aplica?",
     "options": [
-      "A permitir el registro de su vehículo sin orden judicial",
-      "A someterse a una prueba química de aliento, sangre, orina o saliva si la policía sospecha que conduce bajo la influencia",
-      "A mantener un seguro comercial en todo momento",
-      "A no transportar más de dos pasajeros en la noche"
+      "Es una señal exclusiva de zona escolar o cruce escolar; debe reducir la velocidad al límite escolar señalizado durante los días y horarios lectivos",
+      "Indica un parque público recreativo donde está permitido estacionar sin costo",
+      "Señala una estación de autobuses interurbanos de pasajeros",
+      "Advierte sobre un cruce de senderistas de montaña"
     ],
-    "correct_answer_index": 1,
-    "explanation": "Al conducir en las vías de NY, usted da su consentimiento automático para realizar pruebas químicas para detectar alcohol o drogas. Negarse resulta en la suspensión/revocación inmediata de la licencia y multas, independientemente de si resulta culpable de DWI o no.",
-    "is_sign_question": false
+    "correct_answer_index": 0,
+    "explanation": "La forma pentagonal está reservada única y exclusivamente para zonas y cruces escolares en EE.UU. En NY, los límites de velocidad escolares (habitualmente 15-25 mph) deben respetarse rigurosamente en días de clase de 7 AM a 6 PM.",
+    "is_sign_question": true
   },
   {
     "id": 6,
-    "category": "alcohol_drogas",
-    "question": "¿Qué establece la 'Ley de Cero Tolerancia' del Estado de Nueva York para conductores menores de 21 años?",
+    "category": "señales_transito",
+    "question": "Una señal amarilla en forma de banderín triangular horizontal (apuntando hacia la derecha) que dice 'NO PASSING ZONE' está ubicada en el lado IZQUIERDO de una calzada de dos sentidos. ¿Por qué está ubicada a la izquierda y qué prohíbe?",
     "options": [
-      "Es ilegal conducir con cualquier cantidad medible de alcohol (BAC de 0.02% a 0.07%)",
-      "Solo pueden conducir en compañía de sus padres después de las 9:00 PM",
-      "No pueden consumir bebidas energizantes mientras conducen",
-      "Se permite un BAC máximo de hasta 0.05% si viajan solos"
+      "Es un error de instalación del departamento de transporte y carece de validez legal",
+      "Está en el lado izquierdo para que el conductor que evalúa adelantar pueda verla claramente por fuera del vehículo que le precede; marca el inicio donde está estrictamente prohibido rebasar",
+      "Solo aplica para camiones y vehículos pesados de carga comercial",
+      "Indica que los vehículos que vienen en sentido contrario no pueden girar a la izquierda"
     ],
-    "correct_answer_index": 0,
-    "explanation": "Para conductores menores de 21 años rige la Cero Tolerancia: un contenido de alcohol en sangre (BAC) de 0.02% o más es una violación legal que conlleva suspensión de la licencia, multas y audiencias administrativas.",
-    "is_sign_question": false
+    "correct_answer_index": 1,
+    "explanation": "La señal de 'NO PASSING ZONE' en forma de banderín es la única señal de advertencia colocada en el costado izquierdo del camino. Esto permite que el conductor que intenta adelantar la vea sin ser tapada por el vehículo de adelante.",
+    "is_sign_question": true
   },
   {
     "id": 7,
-    "category": "alcohol_drogas",
-    "question": "¿Qué método es el ÚNICO comprobado científicamente para reducir la concentración de alcohol en la sangre (BAC) y volver a estar sobrio?",
+    "category": "señales_transito",
+    "question": "En una intersección controlada por semáforo, el carril de giro a la izquierda muestra una FLECHA AMARILLA INTERMITENTE (Flashing Yellow Arrow). ¿Cuál es la interpretación correcta?",
     "options": [
-      "Tomar café negro bien cargado",
-      "Tomar una ducha fría y caminar rápido",
-      "El paso del tiempo",
-      "Ingerir alimentos ricos en grasas y carbohidratos"
+      "El giro a la izquierda está prohibido; debe continuar derecho",
+      "Tiene paso libre protegido; el tráfico que viene de frente tiene luz roja",
+      "Se le permite girar a la izquierda, pero el giro no está protegido: debe ceder el paso al tráfico en sentido contrario y a peatones antes de doblar",
+      "El semáforo está descompuesto y debe operar como una parada obligatoria en 4 direcciones (4-Way Stop)"
     ],
     "correct_answer_index": 2,
-    "explanation": "Solo el tiempo puede sobreelevar a una persona. El hígado procesa el alcohol a un ritmo constante aproximado de una bebida estándar por hora; el café, las duchas o el ejercicio no aceleran este proceso metabólico.",
-    "is_sign_question": false
+    "explanation": "La flecha amarilla intermitente permite girar a la izquierda, pero advierte que el giro NO está protegido. El conductor debe ceder el paso a todos los vehículos en dirección contraria y a los peatones en el cruce.",
+    "is_sign_question": true
   },
   {
     "id": 8,
-    "category": "alcohol_drogas",
-    "question": "En cuanto a contenido de alcohol, una lata de cerveza regular de 12 onzas (5% de alcohol) equivale aproximadamente a:",
+    "category": "señales_transito",
+    "question": "Al ingresar a una vía durante la noche, observa dos señales reflectantes rojas: 'DO NOT ENTER' y más adelante 'WRONG WAY'. ¿Qué acción inmediata y segura debe ejecutar?",
     "options": [
-      "Una copa de vino de 5 onzas (12% de alcohol) o un trago de 1.5 onzas de licor destilado (80 proof)",
-      "Dos botellas enteras de vino de mesa",
-      "El doble de alcohol que cualquier bebida destilada",
-      "La mitad de alcohol que una cerveza ligera"
+      "Acelerar a fondo para salir de la vía en la próxima intersección antes de encontrarse con otro auto",
+      "Detenerse de inmediato a un costado del camino, encender las luces intermitentes de emergencia y dar la vuelta con precaución en cuanto sea seguro",
+      "Continuar marcha atrás a gran velocidad con las luces de reversa activas",
+      "Apagar las luces del vehículo para no encandilar a los autos que vienen de frente"
     ],
-    "correct_answer_index": 0,
-    "explanation": "Una porción estándar de 12 oz de cerveza, 5 oz de vino de mesa y 1.5 oz de licor destilado (como ron, vodka o whisky) contienen exactamente la misma cantidad de alcohol puro (aproximadamente 0.6 oz o 14 gramos).",
-    "is_sign_question": false
+    "correct_answer_index": 1,
+    "explanation": "Si entra en sentido contrario (Wrong Way), está en riesgo inminente de un choque frontal catastrófico. Debe orillarse de inmediato, activar las luces de peligro (hazard lights) y realizar un giro seguro para retomar el sentido correcto.",
+    "is_sign_question": true
   },
   {
     "id": 9,
-    "category": "derecho_paso",
-    "question": "Cuando dos vehículos llegan al mismo tiempo a una intersección de cuatro vías sin señales de control de tránsito, ¿quién tiene el derecho de paso?",
+    "category": "señales_transito",
+    "question": "Usted conduce una furgoneta o camión alquilado de mudanzas y ve una señal amarilla de diamante que indica '12'-6\"'. En el Estado de Nueva York, ¿qué debe saber especialmente sobre los 'Parkways'?",
     "options": [
-      "El vehículo que viaja más rápido",
-      "El vehículo de mayor tamaño",
-      "El vehículo que está ubicado a la derecha",
-      "El vehículo que está ubicado a la izquierda"
+      "En los 'Parkways' de NY todos los pasos a desnivel tienen una altura superior a 15 pies",
+      "En los 'Parkways' de NY está terminantemente prohibida la circulación de vehículos comerciales, furgonetas altas y camiones debido a los puentes de piedra históricos con baja altura",
+      "Si la furgoneta mide exactamente 12 pies 6 pulgadas, pasará a cualquier velocidad sin tocar el puente",
+      "La señal solo es una recomendación y no aplica para vehículos no comerciales"
     ],
-    "correct_answer_index": 2,
-    "explanation": "Regla de oro de NY: Si dos vehículos llegan simultáneamente a una intersección no regulada, el conductor de la izquierda debe ceder el paso al conductor que se encuentra a su derecha.",
-    "is_sign_question": false
+    "correct_answer_index": 1,
+    "explanation": "En Nueva York, los 'Parkways' fueron construidos exclusivamente para automóviles de pasajeros. Está prohibido el ingreso de camiones, furgonetas altas y remolques debido a puentes arqueados de piedra con alturas muy reducidas.",
+    "is_sign_question": true
   },
   {
     "id": 10,
-    "category": "derecho_paso",
-    "question": "Al prepararse para realizar un giro a la izquierda en una intersección con semáforo en verde fijo (circular), usted debe:",
+    "category": "señales_transito",
+    "question": "Usted llega a un cruce donde el semáforo está en ROJO INTERMITENTE (Flashing Red Light). En la calle transversal, el semáforo muestra AMARILLO INTERMITENTE (Flashing Yellow Light). ¿Cómo se resuelve la prioridad de paso?",
     "options": [
-      "Girar de inmediato antes de que los vehículos de enfrente aceleren",
-      "Tocar la bocina y girar lentamente",
-      "Ceder el paso al tráfico que viene en sentido contrario y a los peatones en el cruce",
-      "Avanzar únicamente si no hay automóviles detrás de usted"
+      "Ambos conductores deben detenerse por completo y pasa el de la derecha",
+      "Quien tiene rojo intermitente debe detenerse por completo (como ante una señal de STOP) y ceder el paso a los vehículos de la transversal, quienes solo deben reducir la velocidad y pasar con precaución",
+      "Quien tiene rojo intermitente tiene preferencia porque la luz roja le da prioridad sobre la amarilla",
+      "El semáforo no tiene validez y los vehículos deben avanzar alternándose de a uno"
     ],
-    "correct_answer_index": 2,
-    "explanation": "Al girar a la izquierda con luz verde redonda, usted NO tiene el paso preferente: debe ceder el paso a todos los vehículos que se aproximan en dirección contraria y a los peatones que cruzan la calle hacia la cual girará.",
-    "is_sign_question": false
+    "correct_answer_index": 1,
+    "explanation": "Una luz roja intermitente equivale exactamente a una señal de STOP (detención total obligatoria y ceder el paso). Una luz amarilla intermitente exige disminuir la velocidad y proceder con cautela sin detenerse a menos que sea necesario.",
+    "is_sign_question": true
   },
   {
     "id": 11,
-    "category": "derecho_paso",
-    "question": "¿Qué debe hacer un conductor al escuchar una sirena o ver las luces rojas/azules destellantes de un vehículo de emergencia que se aproxima?",
+    "category": "intersecciones_derecho_paso",
+    "question": "En una intersección con señales de STOP en las 4 esquinas (4-Way Stop), cuatro automóviles llegan y se detienen con absoluta sincronía en las cuatro esquinas. Según las normas de tránsito y el juicio defensivo, ¿cómo debe solucionarse el paso?",
     "options": [
-      "Acelerar para despejar la intersección lo más rápido posible",
-      "Moverse de inmediato al borde o acera derecha de la carretera y detenerse por completo",
-      "Detenerse inmediatamente en el carril exacto en el que circula",
-      "Cambiar al carril izquierdo y continuar a velocidad normal"
+      "Todos deben avanzar a la vez confiando en que los otros esquivarán",
+      "El vehículo más pesado y veloz tiene la prioridad legal obligatoria",
+      "Dado que la regla habitual 'el vehículo a la derecha pasa primero' crea un bucle infinito, ningún conductor tiene derecho absoluto; debe resolverse mediante comunicación visual, cortesía y cediendo el paso con claridad hasta que el primer auto avance",
+      "El vehículo que va a girar a la izquierda tiene la preferencia sobre los que van derecho"
     ],
-    "correct_answer_index": 1,
-    "explanation": "Debe orillarse de manera segura y controlada hacia el borde derecho del camino o acera y detener su vehículo por completo hasta que el vehículo de emergencia haya pasado, dejando libre el centro y carril izquierdo.",
+    "correct_answer_index": 2,
+    "explanation": "Aunque la regla estándar dice que el vehículo a la derecha tiene preferencia, en un empate simultáneo de 4 esquinas todos tienen a alguien a su derecha. Se requiere manejo defensivo: contacto visual, señas claras de cortesía y nunca avanzar intempestivamente.",
     "is_sign_question": false
   },
   {
     "id": 12,
-    "category": "derecho_paso",
-    "question": "Al entrar a una rotonda o glorieta de tráfico (traffic circle / roundabout), ¿quién tiene la prioridad de paso?",
+    "category": "intersecciones_derecho_paso",
+    "question": "Usted está esperando en el centro de una intersección para doblar a la izquierda, esperando que pase el tráfico en sentido contrario. ¿En qué posición deben estar orientadas las ruedas delanteras de su vehículo mientras espera?",
     "options": [
-      "El vehículo que va a entrar a la rotonda",
-      "Los vehículos que ya están circulando dentro de la rotonda",
-      "El vehículo que circula a mayor velocidad",
-      "El vehículo que desea salir de la rotonda hacia la derecha"
+      "Completamente giradas hacia la izquierda para doblar más rápido apenas haya un hueco",
+      "En línea recta hacia adelante hasta que comience efectivamente el giro",
+      "Ligeramente hacia la derecha apuntando a la acera",
+      "La posición de las ruedas es indiferente si el pie está sobre el freno"
     ],
     "correct_answer_index": 1,
-    "explanation": "Los vehículos que ya se encuentran dentro del carril circular de la rotonda tienen preferencia de paso. Los conductores que entran deben ceder el paso ante ellos y esperar un espacio seguro.",
+    "explanation": "¡Regla crítica de seguridad del NYS DMV! Si mantiene las ruedas apuntando al frente, en caso de recibir un choque por detrás, su auto será empujado hacia adelante en su carril. Si las tiene giradas a la izquierda, el impacto lo lanzará directo contra el tráfico opuesto con riesgo de choque frontal letal.",
     "is_sign_question": false
   },
   {
     "id": 13,
-    "category": "derecho_paso",
-    "question": "Al salir de un estacionamiento privado, garaje o camino de entrada (driveway) hacia una calle pública, usted debe:",
+    "category": "intersecciones_derecho_paso",
+    "question": "Usted entra a una rotonda moderna de dos carriles con la intención de tomar la tercera salida (girar a la izquierda relativa en la rotonda). ¿Qué carril debe tomar y qué regla rige al salir?",
     "options": [
-      "Avanzar si ningún vehículo le hace cambio de luces",
-      "Detenerse por completo y ceder el paso tanto a peatones en la acera como al tráfico en la calle",
-      "Tocar la bocina y salir sin detenerse",
-      "Reclamar el paso si ya colocó la señal de giro"
+      "Debe ingresar por el carril exterior derecho y cruzarse frente a los demás al llegar a su salida",
+      "Debe ingresar por el carril interior (izquierdo), mantenerse en él sin detenerse, y señalizar a la derecha antes de su salida cediendo el paso si cambia de carril",
+      "Puede detenerse dentro de la rotonda para mirar los letreros de las calles con tranquilidad",
+      "En una rotonda no se usan las luces direccionales porque la vía es circular"
     ],
     "correct_answer_index": 1,
-    "explanation": "Los vehículos que salen de propiedades privadas, callejones o garajes no tienen derecho de paso. Deben detenerse antes de la acera para permitir el paso seguro de peatones y luego ceder ante todos los vehículos de la vía pública.",
+    "explanation": "Para giros a la izquierda o giros en U en rotondas multicarril, se debe usar el carril izquierdo (interior). NUNCA se debe detener dentro de la rotonda y siempre se debe activar la direccional derecha justo después de pasar la salida anterior a la que desea tomar.",
     "is_sign_question": false
   },
   {
     "id": 14,
-    "category": "reglas_camino",
-    "question": "¿Cuál es la 'regla de los dos segundos' recomendada en el Manual del Conductor de Nueva York?",
+    "category": "intersecciones_derecho_paso",
+    "question": "Usted circula por una avenida de cuatro carriles dividida por una mediana de concreto central o isla verde de césped. En el sentido contrario, un autobús escolar se detiene con luces rojas y señal de STOP extendida para bajar niños. ¿Qué exige la ley de Nueva York?",
     "options": [
-      "El tiempo máximo permitido para pasar por una luz amarilla",
-      "La distancia mínima de seguimiento segura detrás del vehículo que va delante en condiciones ideales",
-      "El tiempo que debe mantener encendidas las luces intermitentes al orillarse",
-      "El tiempo reglamentario para completar un giro en U"
+      "En NY debe detenerse a mínimo 20 pies sin importar que exista una mediana de concreto o que sea una carretera multicarril; la detención es obligatoria en AMBOS sentidos",
+      "Puede continuar porque la mediana física bloquea el cruce de los niños",
+      "Solo debe reducir la velocidad a 20 mph y tocar la bocina",
+      "Solo se detiene el tráfico si el autobús viaja en su mismo sentido de circulación"
     ],
-    "correct_answer_index": 1,
-    "explanation": "La regla de los dos segundos permite mantener una distancia de frenado segura. Elija un punto de referencia fijo; cuando el vehículo de adelante lo pase, cuente 'mil uno, mil dos'. Si pasa el punto antes de terminar, está siguiendo demasiado cerca.",
+    "correct_answer_index": 0,
+    "explanation": "A diferencia de otros estados, en el Estado de Nueva York la ley NO hace excepciones: todos los vehículos en todas las direcciones deben detenerse por completo para un autobús escolar con luces rojas, incluso en autopistas divididas con barreras centrales o medianas.",
     "is_sign_question": false
   },
   {
     "id": 15,
-    "category": "reglas_camino",
-    "question": "A menos que se indique lo contrario mediante señales oficiales, ¿cuál es el límite de velocidad máxima en la Ciudad de Nueva York (NYC)?",
+    "category": "intersecciones_derecho_paso",
+    "question": "Usted está detenido como primer auto ante una luz roja fija en una intersección de un solo carril. Detrás de usted se aproxima una ambulancia con sirenas y luces de emergencia. ¿Qué maniobra debe realizar?",
     "options": [
-      "35 mph (56 km/h)",
-      "25 mph (40 km/h)",
-      "30 mph (48 km/h)",
-      "20 mph (32 km/h)"
+      "Acelerar a fondo cruzando la luz roja y continuar por la avenida sin detenerse",
+      "Quedarse inmóvil sin importar nada hasta que el semáforo cambie a verde",
+      "Si puede hacerlo con seguridad sin provocar un choque con los autos que tienen vía libre, deslizarse hacia adelante y hacia la derecha despejando el paso de la ambulancia",
+      "Poner reversa y empujar a los autos de atrás"
     ],
-    "correct_answer_index": 1,
-    "explanation": "Bajo la ley de la Ciudad de Nueva York (Vision Zero), el límite de velocidad predeterminado para toda la ciudad en calles residenciales y avenidas es de 25 mph, a menos que una señal señale una velocidad diferente.",
+    "correct_answer_index": 2,
+    "explanation": "La ley exige ceder el paso a vehículos de emergencia. En una intersección, si es seguro hacerlo, el conductor debe avanzar con extrema precaución hacia el costado derecho para despejar el carril, verificando que el tráfico transversal no lo colisione.",
     "is_sign_question": false
   },
   {
     "id": 16,
-    "category": "reglas_camino",
-    "question": "¿Qué exige la ley de Nueva York respecto al uso del cinturón de seguridad en vehículos de pasajeros?",
+    "category": "intersecciones_derecho_paso",
+    "question": "Usted desea girar a la derecha en una intersección con semáforo en rojo. ¿Cuál es la regla crucial que diferencia a la Ciudad de Nueva York (NYC) del resto del Estado de NY?",
     "options": [
-      "Solo el conductor y el pasajero delantero deben usarlo obligatoriamente",
-      "Todos los ocupantes del vehículo, tanto en los asientos delanteros como traseros, deben usar cinturón de seguridad sin importar la edad",
-      "Los pasajeros traseros mayores de 16 años pueden viajar sin cinturón",
-      "Solo es obligatorio al circular por autopistas y carreteras interestatales"
+      "En la Ciudad de NY (NYC) está TERMINANTEMENTE PROHIBIDO girar en rojo, a menos que un letrero indique expresamente 'RIGHT TURN ON RED PERMITTED'. En el resto del estado sí está permitido tras hacer alto total si no hay letrero que lo prohíba",
+      "En la Ciudad de NY se puede girar en rojo siempre sin detenerse",
+      "En todo el estado de NY está prohibido girar en rojo bajo cualquier circunstancia",
+      "Solo los taxis de NYC pueden doblar en rojo"
     ],
-    "correct_answer_index": 1,
-    "explanation": "En el Estado de Nueva York, desde noviembre de 2020, TODOS los ocupantes de un vehículo de motor (tanto adelante como atrás) deben llevar puesto el cinturón de seguridad debidamente abrochado.",
+    "correct_answer_index": 0,
+    "explanation": "Esta es una de las reglas más estrictas del DMV de NY. En NYC rige la prohibición general del giro en rojo salvo señalización específica que lo autorice. En el resto del estado, se permite doblar en rojo tras hacer alto completo salvo señal que lo prohíba.",
     "is_sign_question": false
   },
   {
     "id": 17,
-    "category": "reglas_camino",
-    "question": "Cuando un autobús escolar se detiene y activa sus luces rojas intermitentes con el brazo de 'STOP' extendido, ¿qué deben hacer los conductores?",
+    "category": "intersecciones_derecho_paso",
+    "question": "Un peatón que porta un bastón blanco con la punta roja o que va acompañado de un perro guía cruza una calle a mitad de cuadra (fuera del cruce peatonal marcado). ¿Cuál es la obligación legal del conductor?",
     "options": [
-      "Reducir a 15 mph y pasar con extrema precaución",
-      "Detenerse al menos a 20 pies de distancia, sin importar si viajan en la misma dirección o en sentido contrario, incluso en carreteras divididas",
-      "Solo detenerse si viajan directamente detrás del autobús",
-      "Tocar la bocina y continuar si no hay niños cruzando la calle"
+      "Tocar la bocina suavemente para avisarle que está fuera del cruce peatonal",
+      "Ceder el paso y detenerse por completo para garantizar la seguridad del peatón, sin importar dónde esté cruzando",
+      "Pasar despacio rodeándolo por detrás",
+      "Reclamar el derecho de paso porque el peatón comete 'jaywalking'"
     ],
     "correct_answer_index": 1,
-    "explanation": "La ley de NY es estricta: debe detenerse a un mínimo de 20 pies del autobús escolar con luces rojas, desde cualquier dirección (frente o detrás), incluso en carreteras divididas con barreras centrales o caminos multicarril.",
+    "explanation": "La ley del estado de Nueva York otorga derecho de paso absoluto e irrestricto a las personas con discapacidad visual que lleven un bastón blanco o un perro guía. Nunca use la bocina, ya que desorienta o asusta al peatón y al perro guía.",
     "is_sign_question": false
   },
   {
     "id": 18,
-    "category": "reglas_camino",
-    "question": "¿Qué debe hacer si su vehículo comienza a sufrir 'hidroplaneo' (patinaje sobre una película de agua) durante una lluvia fuerte?",
+    "category": "intersecciones_derecho_paso",
+    "question": "Al ingresar a una autopista a través de una rampa con carril de aceleración, usted nota que el tráfico en el carril derecho circula a 65 mph en fila continua. ¿Cuál es la responsabilidad primordial del vehículo que se incorpora?",
     "options": [
-      "Pisar el pedal de freno a fondo y tirar del freno de mano",
-      "Girar el volante con rapidez de izquierda a derecha para recuperar tracción",
-      "Retirar suavemente el pie del acelerador y mantener el volante derecho hasta que las ruedas toquen el asfalto",
-      "Acelerar con firmeza para atravesar la acumulación de agua"
+      "Los autos de la autopista están obligados legalmente a frenar o cambiarse de carril para dejarle entrar a usted",
+      "Usted en la rampa debe ajustar su velocidad a la del tráfico, buscar una brecha segura y ceder el paso a los vehículos que ya están en la autopista",
+      "Detenerse de inmediato al inicio del carril de aceleración y esperar a que la autopista quede vacía",
+      "Tocar la bocina y meterse al carril a 30 mph"
     ],
-    "correct_answer_index": 2,
-    "explanation": "Al hidroplanear, los neumáticos pierden contacto con la carretera. No frene bruscamente ni gire el volante bruscamente. Suelte el acelerador gradualmente, mantenga la dirección firme y espere a que el peso del vehículo recupere el agarre.",
+    "correct_answer_index": 1,
+    "explanation": "El tráfico que ya circula por la autopista tiene prioridad de paso. El conductor que ingresa debe usar el carril de aceleración para alcanzar la velocidad del flujo y buscar un espacio seguro para entrar sin obligar a otros conductores a frenar bruscamente.",
     "is_sign_question": false
   },
   {
     "id": 19,
-    "category": "reglas_camino",
-    "question": "Antes de cambiar de carril en una autopista o avenida, además de activar la señal de giro y mirar los espejos retrovisores, usted debe:",
+    "category": "alcohol_drogas_leyes",
+    "question": "Un conductor de 19 años es detenido en NY y la prueba de aliento arroja un BAC de 0.03% (por debajo del 0.08% de los adultos). ¿Qué proceso legal se desencadena?",
     "options": [
-      "Tocar la bocina dos veces cortas para alertar a otros conductores",
-      "Girar la cabeza y mirar sobre su hombro para comprobar el punto ciego (blind spot)",
-      "Reducir su velocidad a la mitad",
-      "Esperar a que el vehículo detrás le dé luces altas"
+      "Ninguno, ya que al ser menor de 0.08% no hay infracción en Nueva York",
+      "Se le aplica la Ley de Cero Tolerancia: suspensión administrativa inmediata de la licencia por 6 meses y una sanción económica civil de $125 más tarifa de reexpedición",
+      "Se le condena automáticamente a 5 años de prisión estatal",
+      "Solo se le envía una carta de advertencia a los padres"
     ],
     "correct_answer_index": 1,
-    "explanation": "Los espejos no muestran toda el área lateral trasera del auto (los puntos ciegos). Es indispensable hacer un vistazo rápido por encima del hombro hacia el lado al que desea moverse antes de iniciar la maniobra.",
+    "explanation": "En NY, para menores de 21 años, cualquier contenido de alcohol de 0.02% a 0.07% activa la Ley de Cero Tolerancia. Es una audiencia civil en el DMV que suspende la licencia obligatoriamente.",
     "is_sign_question": false
   },
   {
     "id": 20,
-    "category": "reglas_camino",
-    "question": "¿En qué condiciones climáticas exige la ley de Nueva York encender las luces bajas (headlights) del vehículo?",
+    "category": "alcohol_drogas_leyes",
+    "question": "Un conductor con licencia de NY es arrestado bajo sospecha de DWI y se niega categóricamente a someterse a la prueba química del alcoholímetro. En el juicio penal posterior, el juez lo declara INOCENTE de DWI. ¿Qué ocurre con su licencia de conducir ante el DMV?",
     "options": [
-      "Únicamente desde la medianoche hasta el amanecer",
-      "Siempre que se activen los limpiaparabrisas debido a lluvia, aguanieve, nieve o niebla, y desde media hora después de la puesta del sol hasta media hora antes del amanecer",
-      "Solo cuando la visibilidad sea menor a 50 pies",
-      "Solamente al circular dentro de túneles"
+      "Se le devuelve la licencia de inmediato sin ninguna penalidad por haber sido declarado inocente",
+      "Su licencia es revocada obligatoriamente por al menos un año y debe pagar una sanción civil de $500, porque negarse a la prueba es una violación administrativa independiente del resultado del juicio penal",
+      "Recibe únicamente 2 puntos en su registro de manejo",
+      "Puede conducir solo durante los fines de semana"
     ],
     "correct_answer_index": 1,
-    "explanation": "La ley de NY exige luces encendidas desde media hora después del anochecer hasta media hora antes del amanecer, y SIEMPRE que las condiciones del clima requieran el uso de los limpiaparabrisas. Las luces altas no deben usarse con niebla o lluvia porque reflejan el resplandor.",
+    "explanation": "En NY, la revocación por negarse a la prueba química es una sanción civil administrativa dictada por el DMV que rige independientemente de si el conductor resulta absuelto en la corte penal.",
+    "is_sign_question": false
+  },
+  {
+    "id": 21,
+    "category": "alcohol_drogas_leyes",
+    "question": "¿Qué establece la 'Ley de Leandra' (Leandra's Law) del Estado de Nueva York sobre conducir intoxicado transportando a menores de edad?",
+    "options": [
+      "Conducir intoxicado (DWI) con un pasajero de 15 años o menor es automáticamente un delito grave (Class E Felony), con penas de prisión de hasta 4 años incluso en la primera infracción",
+      "Solo aplica multas adicionales si el menor no lleva puesto el cinturón de seguridad",
+      "Aplica únicamente para conductores de transporte escolar público",
+      "Permite evitar la cárcel si el conductor realiza 10 horas de servicio comunitario"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "La Ley de Leandra convierte el primer arresto por DWI con un niño de 15 años o menor a bordo en un delito grave Clase E, conllevando penas de prisión estatal y la instalación obligatoria de un dispositivo IID.",
+    "is_sign_question": false
+  },
+  {
+    "id": 22,
+    "category": "alcohol_drogas_leyes",
+    "question": "En el Estado de Nueva York, ¿cuál es el umbral de concentración de alcohol en sangre (BAC) para ser acusado de 'DWI Agravado' (Aggravated Driving While Intoxicated)?",
+    "options": [
+      "0.08% o más",
+      "0.10% o más",
+      "0.18% o más",
+      "0.25% o más"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Un BAC de 0.18% o superior califica como DWI Agravado en NY. Conlleva multas mucho más severas, revocación obligatoria de la licencia por un mínimo de un año y requisitos estrictos de interbloqueo de encendido (IID).",
+    "is_sign_question": false
+  },
+  {
+    "id": 23,
+    "category": "alcohol_drogas_leyes",
+    "question": "¿Qué es el dispositivo de interbloqueo de encendido (Ignition Interlock Device - IID) exigido en el Estado de Nueva York tras una condena por DWI?",
+    "options": [
+      "Un radar GPS que reporta el exceso de velocidad al cuartel policial",
+      "Un alcoholímetro conectado al sistema de arranque del vehículo que impide encender el motor si detecta alcohol en el aliento del conductor",
+      "Un sistema que apaga los faros si el conductor se duerme",
+      "Una cámara de tablero que graba el rostro del chofer"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "En NY, cualquier persona condenada por DWI debe instalar a su propio costo un IID en cualquier vehículo que posea o conduzca. El chofer debe soplar en el dispositivo sin rastros de alcohol para encender el motor y dar muestras periódicas durante la marcha.",
+    "is_sign_question": false
+  },
+  {
+    "id": 24,
+    "category": "alcohol_drogas_leyes",
+    "question": "Usted toma un antihistamínico de venta libre para la alergia o un jarabe para la tos que tiene una etiqueta de advertencia que dice 'Puede causar somnolencia'. Si la policía lo detiene conduciendo de forma errática:",
+    "options": [
+      "No pueden arrestarlo porque el medicamento es 100% legal y no requiere receta médica",
+      "Puede ser arrestado y condenado por DWAI (Conducir con facultades disminuidas por drogas o medicamentos), con sanciones penales similares a las del alcohol",
+      "La ley solo prohíbe medicamentos si se consumen dentro de un vehículo",
+      "Solo se le impondrá una infracción leve de estacionamiento"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Conducir bajo los efectos de CUALQUIER sustancia (sea una droga ilícita, un medicamento recetado o un fármaco de venta libre) que disminuya su capacidad mental o física es ilegal bajo la ley de DWAI de Nueva York.",
+    "is_sign_question": false
+  },
+  {
+    "id": 25,
+    "category": "alcohol_drogas_leyes",
+    "question": "Un conductor consume 4 bebidas alcohólicas estándar en una fiesta. ¿Cuánto tiempo necesitará el cuerpo humano promedio para eliminar por completo el alcohol del torrente sanguíneo?",
+    "options": [
+      "Alrededor de 30 minutos si toma dos tazas de café expreso cargado",
+      "Aproximadamente 4 horas, ya que el hígado procesa en promedio una bebida por hora y nada acelera esa tasa metabólica",
+      "Menos de 1 hora si corre alrededor de la manzana y suda bastante",
+      "15 minutos si come una hamburguesa con papas fritas"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Ningún remedio casero elimina el alcohol. El hígado humano metaboliza el alcohol a una tasa fija de aproximadamente 0.015% de BAC por hora (alrededor de una bebida regular de 12 oz de cerveza o 5 oz de vino por hora). Cuatro bebidas requieren al menos 4 horas.",
+    "is_sign_question": false
+  },
+  {
+    "id": 26,
+    "category": "condiciones_climaticas_fisica",
+    "question": "Al transitar a 50 mph por una carretera inundada con lluvia, la dirección de su auto de pronto se siente sumamente blanda y ligera, y el vehículo no responde a los pequeños movimientos del volante. ¿Qué está ocurriendo y qué debe hacer?",
+    "options": [
+      "Los frenos se trabaron; debe tirar fuertemente del freno de emergencia",
+      "El auto está hidroplaneando sobre una película de agua; debe soltar suavemente el acelerador, mantener el volante derecho y esperar a que las ruedas retomen contacto con el pavimento sin frenar de golpe",
+      "Acelerar a fondo para que la fuerza del motor corte la película de agua",
+      "Girar el volante con fuerza hacia la banquina"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "En el hidroplaneo, los neumáticos flotan sobre el agua perdiendo toda tracción y frenado. Frenar de golpe o dar volantazos causará un trompo descontrolado en el instante en que un neumático toque el asfalto.",
+    "is_sign_question": false
+  },
+  {
+    "id": 27,
+    "category": "situaciones_emergencia",
+    "question": "A 65 mph en el carril izquierdo de una autopista de NY, se revienta de golpe un neumático delantero produciendo un fuerte estruendo y tirando del volante fuertemente hacia un lado. ¿Cuál es el error INSTINTIVO más letal que debe evitar?",
+    "options": [
+      "Pisar el pedal de freno a fondo con pánico, lo cual causará que el vehículo gire en trompo o vuelque de inmediato",
+      "Sostener con fuerza el volante con ambas manos para mantener la línea recta",
+      "Desacelerar gradualmente sin frenar",
+      "Encender las luces de emergencia y salir del carril hacia la derecha cuando haya bajado la velocidad"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Frenar bruscamente con un neumático reventado es la causa principal de volcaduras y pérdida de control total. Debe sujetar firmemente el volante, contrarrestar el tirón, soltar el acelerador y frenar suavemente solo cuando la velocidad haya descendido de manera segura.",
+    "is_sign_question": false
+  },
+  {
+    "id": 28,
+    "category": "situaciones_emergencia",
+    "question": "Al presionar el pedal del freno para detenerse en una bajada, el pedal se va hasta el piso sin oponer resistencia y el auto no disminuye la velocidad. ¿Cuál es la secuencia correcta de salvamento recomendada por el NYS DMV?",
+    "options": [
+      "Abrir la puerta y saltar del vehículo en movimiento",
+      "Bombear el pedal de freno rápidamente varias veces para acumular presión; si no funciona, cambiar a una marcha más baja (engranaje inferior) y aplicar gradualmente el freno de mano",
+      "Apagar el motor de inmediato y retirar la llave del encendido",
+      "Poner la marcha en 'Reversa' inmediatamente a cualquier velocidad"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Bombear el pedal puede restaurar presión hidráulica suficiente. Reducir marchas frena con el motor, y el freno de mano (mecánico e independiente de los circuitos hidráulicos) ayuda a detener el vehículo si se aplica con suavidad para evitar derrapes.",
+    "is_sign_question": false
+  },
+  {
+    "id": 29,
+    "category": "situaciones_emergencia",
+    "question": "El pedal del acelerador se queda trabado en el piso y el vehículo continúa acelerando descontroladamente hacia el tráfico. ¿Qué acción inmediata neutraliza la propulsión sin trabar el volante?",
+    "options": [
+      "Girar la llave de encendido a la posición 'LOCK' y retirarla",
+      "Cambiar la palanca de cambios a NEUTRO (N) de inmediato y frenar firmemente hacia un lugar seguro fuera de la carretera",
+      "Poner el vehículo en 'Park' (P) a 60 mph",
+      "Tirar del freno de mano sin soltar el acelerador"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Poner la caja en NEUTRO (N) desconecta la fuerza del motor de las ruedas inmediatamente, permitiendo frenar de forma normal. NUNCA retire la llave de encendido, ya que bloqueará el volante dejándolo sin control de dirección.",
+    "is_sign_question": false
+  },
+  {
+    "id": 30,
+    "category": "situaciones_emergencia",
+    "question": "Sus ruedas derechas caen accidentalmente fuera del borde del pavimento hacia un desnivel de tierra y piedras en la banquina. ¿Cómo debe reaccionar para evitar volcar al reincorporarse?",
+    "options": [
+      "Pegar un volantazo violento hacia la izquierda de inmediato para volver a subir al asfalto",
+      "Mantener la calma, sujetar firme el volante derecho, soltar el acelerador para desacelerar y, cuando baje la velocidad y no venga tráfico, girar suavemente hacia el asfalto",
+      "Clavar los frenos inmediatamente en la tierra",
+      "Acelerar a fondo para que el vehículo salte el borde del pavimento"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "El peligro mortal al salirse al arcén es el volantazo inmediato: el neumático tropieza con el desnivel del asfalto y catapulta el auto cruzando los carriles contrarios en una volcadura frontal.",
+    "is_sign_question": false
+  },
+  {
+    "id": 31,
+    "category": "condiciones_climaticas_fisica",
+    "question": "Durante el invierno en NY con temperaturas cercanas a los 32°F (0°C), ¿por qué los puentes y pasos elevados son mucho más peligrosos que el resto de la calzada?",
+    "options": [
+      "Porque están construidos con un asfalto especial que repele la sal de deshielo",
+      "Porque el aire frío circula tanto por arriba como por DEBAJO de la estructura del puente, haciendo que su superficie se congele mucho antes que las carreteras apoyadas sobre la tierra caliente",
+      "Porque los camiones de sal no tienen permitido circular por puentes",
+      "Porque la altitud de los puentes genera menor presión de aire en los neumáticos"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Los puentes carecen del calor de la tierra debajo de ellos. El viento frío por arriba y por abajo enfría la losa rápidamente, formando hielo negro invisible antes de que el resto del camino se congele.",
+    "is_sign_question": false
+  },
+  {
+    "id": 32,
+    "category": "condiciones_climaticas_fisica",
+    "question": "En una frenada de emergencia sobre pavimento resbaladizo en un automóvil moderno equipado con frenos antibloqueo (ABS), el pedal comienza a vibrar y hacer ruido metálico. ¿Qué debe hacer el conductor?",
+    "options": [
+      "Soltar el freno inmediatamente y bombearlo con el pie varias veces",
+      "Pisar el pedal del freno con fuerza constante hacia el fondo y mantener la presión firme sin bombear jamás",
+      "Tirar del freno de mano para ayudar al ABS",
+      "Apagar el motor para que el auto se frene solo"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "El sistema ABS vibra y pulsa automáticamente hasta 15 veces por segundo para evitar que las ruedas se bloqueen y permitir dirigir el auto. Si usted 'bombea' el freno manualmente, anula el sistema ABS. Mantenga el pie presionado a fondo.",
+    "is_sign_question": false
+  },
+  {
+    "id": 33,
+    "category": "condiciones_climaticas_fisica",
+    "question": "En una autopista seca a 55 mph, ¿cuál es aproximadamente la distancia total requerida para detener un automóvil estándar (sumando la distancia de reacción humana más la distancia de frenado mecánico)?",
+    "options": [
+      "Alrededor de 50 pies (el largo de dos autos)",
+      "Más de 200 a 250 pies (casi el largo de un campo de fútbol americano)",
+      "Exactamente 75 pies",
+      "Menos de 30 pies gracias a los frenos modernos"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "A 55 mph, el vehículo recorre unos 60 pies en los 3/4 de segundo que tarda el cerebro en reaccionar, y otros 140-190 pies mecánicos para frenar por completo. En total son más de 200 pies en condiciones perfectas.",
+    "is_sign_question": false
+  },
+  {
+    "id": 34,
+    "category": "reglas_camino_avanzadas",
+    "question": "En el Estado de Nueva York rige la ley 'Move Over' (Ceda el paso / Muévase de carril), la cual fue recientemente ampliada. ¿A qué vehículos aplica y cuál es su obligación si no puede cambiar de carril con seguridad?",
+    "options": [
+      "Solo aplica a patrullas de la policía estatal; ante otros vehículos no hay obligación",
+      "Aplica a patrullas, ambulancias, bomberos, grúas, vehículos de mantenimiento y a CUALQUIER vehículo averiado o detenido al costado con luces de advertencia; si no puede cambiarse de carril, debe reducir sustancialmente la velocidad",
+      "Permite continuar a la velocidad máxima si no invade la línea del arcén",
+      "Obliga a todos los autos de la autopista a detenerse por completo"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "En NY, la Ley Move Over obliga a despejar el carril contiguo o reducir significativamente la velocidad ante vehículos de emergencia, grúas, mantenimiento y desde 2024 ante cualquier vehículo detenido con balizas activas.",
+    "is_sign_question": false
+  },
+  {
+    "id": 35,
+    "category": "reglas_camino_avanzadas",
+    "question": "En una avenida comercial con un carril central delimitado por una línea amarilla continua exterior y una quebrada interior en ambos lados, ¿cuál es el uso legal permitido?",
+    "options": [
+      "Usarlo como carril exprés para rebasar tráfico lento en distancias largas",
+      "Usarlo exclusivamente para desacelerar y preparar un giro a la izquierda, o para incorporarse con precaución a la avenida (recorriendo distancias cortas antes de mezclarse)",
+      "Estacionar el auto para hacer compras rápidas de 5 minutos",
+      "Conducir por él a velocidad normal si el carril derecho está ocupado"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "El carril central de giro solo se debe utilizar para maniobras de giro a la izquierda o para incorporarse al tráfico. Está prohibido usarlo como carril de adelantamiento o viajar por él más de unos cientos de pies.",
+    "is_sign_question": false
+  },
+  {
+    "id": 36,
+    "category": "reglas_camino_avanzadas",
+    "question": "Usted viaja por una carretera de dos carriles con una línea doble amarilla continua en el centro. ¿En cuál de las siguientes situaciones está PERMITIDO legalmente cruzar la doble línea?",
+    "options": [
+      "Para adelantar a un camión que viaja 10 mph por debajo del límite de velocidad",
+      "Para girar a la izquierda hacia un camino de entrada privado (driveway), callejón o negocio, o para rebasar un obstáculo completamente detenido si no viene tráfico",
+      "Siempre que no haya patrullas policiales a la vista",
+      "Para adelantar a un ciclista en una curva cerrada"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "La doble línea amarilla prohíbe el adelantamiento de vehículos en movimiento en ambos sentidos, pero la ley de NY permite cruzarla explícitamente para girar a la izquierda hacia un garaje, entrada privada o calle transversal, o para esquivar una obstrucción fija.",
+    "is_sign_question": false
+  },
+  {
+    "id": 37,
+    "category": "reglas_camino_avanzadas",
+    "question": "En una autopista o aproximación a un túnel o puente, la línea divisoria de carriles en el mismo sentido pasa de ser discontinua a ser una LÍNEA BLANCA CONTINUA (Solid White Line). ¿Qué indica?",
+    "options": [
+      "Indica que los cambios de carril son desaconsejados o especialmente peligrosos, y debe permanecer en su carril a menos que sea indispensable evitar un choque",
+      "Que ese carril se convertirá en un carril exclusivo de bicicletas",
+      "Que puede cambiar de carril con mayor frecuencia sin colocar la señal de giro",
+      "Que el límite de velocidad sube 15 mph"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Las líneas blancas sólidas canalizan el tráfico y señalan que cambiar de carril en esa zona implica alto riesgo de accidente (por ejemplo, en túneles, intersecciones complejas o salidas de autopista).",
+    "is_sign_question": false
+  },
+  {
+    "id": 38,
+    "category": "reglas_camino_avanzadas",
+    "question": "En condiciones climáticas secas e ideales se recomienda una regla de seguimiento de al menos 2 a 3 segundos. ¿Cómo debe ajustar esta distancia cuando conduce bajo nieve, lluvia torrencial o sobre asfalto con hielo?",
+    "options": [
+      "Mantener la misma distancia porque los frenos se calientan y agarran igual",
+      "Reducirla a 1 segundo para seguir las huellas de los neumáticos del auto de adelante",
+      "Aumentarla significativamente a un mínimo de 6 a 8 segundos o más para permitir espacio suficiente de detención",
+      "Pegarse a un camión grande para protegerse del viento"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Sobre pavimento resbaladizo, la distancia de frenado de un automóvil puede multiplicarse por 3 hasta 9 veces. Una distancia de seguimiento de al menos 6 a 8 segundos es fundamental para no colisionar en cadena.",
+    "is_sign_question": false
+  },
+  {
+    "id": 39,
+    "category": "estacionamiento_maniobras",
+    "question": "Al estacionar su vehículo en una calle empinada hacia ABAJO que tiene un bordillo (curb) de acera a la derecha, ¿hacia dónde debe girar las ruedas delanteras antes de apagar el motor y poner el freno de mano?",
+    "options": [
+      "Hacia el centro de la calle (hacia la izquierda)",
+      "En línea recta hacia adelante",
+      "Hacia el bordillo / acera (hacia la derecha)",
+      "La posición de las ruedas no importa si la transmisión está en 'P'"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Al estacionar cuesta abajo con bordillo, gire las ruedas HACIA LA DERECHA (hacia el bordillo). Si los frenos fallasen, el auto rodará suavemente contra la acera trabándose y evitando descender libremente por la pendiente.",
+    "is_sign_question": false
+  },
+  {
+    "id": 40,
+    "category": "estacionamiento_maniobras",
+    "question": "Al estacionar su vehículo en una calle empinada hacia ARRIBA que tiene bordillo de acera a la derecha, ¿hacia dónde debe girar las ruedas delanteras?",
+    "options": [
+      "Hacia el centro de la calle (hacia la izquierda / lejos del bordillo)",
+      "Hacia el bordillo (hacia la derecha)",
+      "Rectas hacia adelante",
+      "Hacia donde sople el viento"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cuesta arriba con bordillo, gire las ruedas LEJOS DEL BORDILLO (hacia la izquierda). Si el auto retrocediera por gravedad, la parte trasera del neumático delantero derecho hará tope firme contra el bordillo deteniendo el auto.",
+    "is_sign_question": false
+  },
+  {
+    "id": 41,
+    "category": "estacionamiento_maniobras",
+    "question": "En el Estado de Nueva York, ¿a qué distancia mínima de una boca de incendios (Fire Hydrant) está prohibido estacionar un vehículo, a menos que un conductor con licencia permanezca dentro listo para moverlo?",
+    "options": [
+      "A menos de 5 pies",
+      "A menos de 15 pies (unos 4.5 metros)",
+      "A menos de 30 pies",
+      "A menos de 50 pies"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "En NY, no se puede estacionar a menos de 15 pies de una boca de incendios. Solo se permite detenerse momentáneamente si el conductor permanece en el asiento listo para mover el vehículo de inmediato si llegan los bomberos.",
+    "is_sign_question": false
+  },
+  {
+    "id": 42,
+    "category": "seguridad_distracciones_penalizaciones",
+    "question": "En el Estado de Nueva York, ¿cuántos puntos en el registro de la licencia de conducir se imponen por usar un teléfono celular de mano o enviar mensajes de texto al conducir?",
+    "options": [
+      "1 punto",
+      "3 puntos",
+      "5 puntos y multas elevadas",
+      "Cero puntos, solo una advertencia verbal"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Nueva York tiene de las leyes más estrictas del país contra conductores distraídos: el uso manual de celulares o dispositivos electrónicos conlleva 5 puntos directos en el registro, y para conductores con licencia probatoria o permiso puede significar la suspensión automática por 120 días.",
+    "is_sign_question": false
+  },
+  {
+    "id": 43,
+    "category": "seguridad_distracciones_penalizaciones",
+    "question": "Bajo el sistema de puntos del DMV del Estado de Nueva York, ¿cuántos puntos acumulados por infracciones de tránsito en un periodo de 18 meses conllevan la suspensión de la licencia?",
+    "options": [
+      "6 puntos",
+      "11 puntos o más",
+      "20 puntos",
+      "15 puntos"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Si acumula 11 puntos o más dentro de cualquier ventana de 18 meses, el DMV programará una suspensión o revocación de su licencia de conducir.",
+    "is_sign_question": false
+  },
+  {
+    "id": 44,
+    "category": "seguridad_distracciones_penalizaciones",
+    "question": "Una persona titular de un permiso de aprendizaje (Learner Permit) en el Estado de Nueva York solo puede conducir legalmente si va acompañada por:",
+    "options": [
+      "Cualquier persona mayor de 18 años, incluso si no tiene licencia",
+      "Un conductor con licencia de conducir válida de al menos 21 años de edad sentado en el asiento delantero del acompañante",
+      "Solo su cónyuge sin importar la edad",
+      "Puede conducir solo si es de día"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Todo aprendiz debe estar bajo la supervisión directa de un conductor con licencia válida de 21 años o más, sentado obligatoriamente en el asiento delantero junto al aprendiz.",
+    "is_sign_question": false
+  },
+  {
+    "id": 45,
+    "category": "seguridad_distracciones_penalizaciones",
+    "question": "Al adelantar a un ciclista en una calle o avenida, y al abrir la puerta del auto estacionado junto a una ciclovía, ¿qué normas de seguridad se exigen en Nueva York?",
+    "options": [
+      "Dejar al menos 3 pies de distancia lateral al adelantar al ciclista, y usar la técnica 'Dutch Reach' (abrir con la mano lejana a la puerta para girar el torso y mirar hacia atrás) para evitar el atropello de ciclistas ('dooring')",
+      "Tocar la bocina continuamente para que el ciclista se suba a la acera",
+      "Pasar a 6 pulgadas de distancia para no invadir el otro carril",
+      "Los ciclistas en NY no tienen derechos viales y deben ceder el paso siempre a los autos"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Los ciclistas tienen el mismo derecho a usar la calzada que los automovilistas. La ley exige mantener al menos 3 pies de espacio lateral de seguridad al rebasarlos y comprobar espejos y puntos ciegos antes de abrir puertas.",
+    "is_sign_question": false
+  },
+  {
+    "id": 46,
+    "category": "condiciones_climaticas_fisica",
+    "question": "Usted maneja en una noche con niebla muy densa y visibilidad reducida a menos de 100 pies. ¿Por qué razón física JAMÁS debe encender las luces altas (high beams)?",
+    "options": [
+      "Porque la batería del automóvil se descarga más rápido con la humedad",
+      "Porque la luz brillante de los faros altos se refleja directamente en las gotas microscópicas de agua suspendidas en el aire, creando una pared de resplandor blanco que encandila al propio conductor",
+      "Porque las luces altas calientan la niebla haciéndola más espesa",
+      "Porque la policía de NY apaga las luces altas por radar"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Las gotas de agua de la niebla actúan como millones de espejos diminutos. La luz alta rebota hacia sus propios ojos produciendo ceguera por resplandor. Use siempre luces bajas y faros antiniebla.",
+    "is_sign_question": false
+  },
+  {
+    "id": 47,
+    "category": "seguridad_distracciones_penalizaciones",
+    "question": "Al circular cerca de un camión con remolque de 18 ruedas (tractor-trailer), ¿cuál es la regla de oro para asegurarse de que el camionero sabe que usted está allí?",
+    "options": [
+      "Tocar la bocina cada 30 segundos",
+      "Si usted no puede ver la cara del chofer del camión en sus espejos laterales exteriores, el chofer del camión NO puede verlo a usted en absoluto",
+      "Pegarse a menos de 5 pies de su parachoques trasero para aprovechar el rebufo aerodinámico",
+      "Viajar exactamente al lado de la cabina del camión durante kilómetros"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Los camiones grandes tienen zonas ciegas gigantescas (llamadas 'No-Zones') a la derecha, izquierda, frente y detrás. Si no ve los espejos o el reflejo del conductor, usted es totalmente invisible para el chofer del camión.",
+    "is_sign_question": false
+  },
+  {
+    "id": 48,
+    "category": "seguridad_distracciones_penalizaciones",
+    "question": "Desde noviembre de 2020 en el Estado de Nueva York, ¿quiénes están obligados por ley a utilizar cinturón de seguridad abrochado en un vehículo particular en marcha?",
+    "options": [
+      "Solo los niños menores de 8 años en sillas especiales",
+      "Solo el conductor y el pasajero delantero",
+      "TODOS los ocupantes del vehículo, sin excepción, tanto en los asientos delanteros como traseros, sin importar su edad",
+      "Solo los pasajeros que no tengan seguro médico"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "La ley de NY exige que toda persona a bordo de un vehículo de motor lleve el cinturón de seguridad correctamente abrochado, sin importar en qué asiento viaje ni su edad.",
+    "is_sign_question": false
+  },
+  {
+    "id": 49,
+    "category": "situaciones_emergencia",
+    "question": "Su auto queda atrapado en una ventisca de nieve en el arcén y debe esperar auxilio durante horas. Decide encender el motor periódicamente para que funcione la calefacción. ¿Qué precaución crítica de vida o muerte debe verificar?",
+    "options": [
+      "Que la radio esté en volumen máximo para atraer atención",
+      "Que el tubo de escape esté completamente libre de nieve acumulada y mantener una ventanilla ligeramente abierta para evitar intoxicación mortal por monóxido de carbono (CO)",
+      "Acelerar el motor continuamente a 4000 RPM para derretir la nieve alrededor del auto",
+      "Apagar las luces de emergencia para ahorrar gasolina"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Si la nieve bloquea el caño de escape, el monóxido de carbono (gas inodoro, incoloro y letal) se filtra al interior del habitáculo en minutos, provocando asfixia y muerte de los ocupantes mientras duermen.",
+    "is_sign_question": false
+  },
+  {
+    "id": 50,
+    "category": "seguridad_distracciones_penalizaciones",
+    "question": "En las autopistas y carreteras de Nueva York señalizadas como 'Zonas de Trabajo en Construcción' (Work Zones), ¿cuál es la penalidad legal automática para el exceso de velocidad?",
+    "options": [
+      "Las multas por exceso de velocidad se DUPLICAN automáticamente, y dos condenas por velocidad en zona de obras suspenden la licencia de conducir",
+      "Solo se aplica una advertencia por escrito si no hay obreros presentes en ese instante",
+      "No se aplican puntos al historial del conductor",
+      "La velocidad máxima se reduce a 5 mph en toda la autopista"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "En el Estado de Nueva York, las multas por exceso de velocidad en zonas de obras viales se duplican por ley. Además, dos o más condenas por exceso de velocidad en zonas de trabajo conllevan la suspensión obligatoria de la licencia.",
     "is_sign_question": false
   }
 ]
